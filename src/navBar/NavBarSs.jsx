@@ -15,9 +15,8 @@ const NavBarSs = () => {
                 <a href="/contact">Contact us</a>
                 <a href="/ourPartners">Projects</a>
             </div>
-
         </div>
     );
 }
  
-export default NavBarSs;
+export default NavBarSs;``
