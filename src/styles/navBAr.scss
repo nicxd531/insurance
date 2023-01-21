@@ -1,3 +1,5 @@
+@import "./variables";
+
 .navBar{
     width: 100vw;
     .navBarSs{
@@ -12,6 +14,7 @@
             justify-content: center;
             align-items: center;
             grid-column: span 12;
+            color: $primary-colour-blue;
             >a{
                 text-transform: capitalize;
                 padding-left: 20px;
@@ -50,9 +53,50 @@
         }
         .navarBs{
             display: inline-block;
+            margin-top: 25px;
             width: 100%;
             height: 40px;
-            background-color: blue;
+            >a{
+                font-size: $font-size-16px;
+                color:$primary-colour-blue;
+                text-decoration: none;
+                position: relative;
+
+            }
+            .strokes::after{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 0%;
+                content: '.';
+                color: transparent;
+                background: $secondary-colour-green;
+                height: 3px;
+            }
+            .strokes:hover::after,
+            .strokes:active::after{
+                width: 100%;
+                transition: all 0.3s ease-in;
+            }
+            /* Keyframes */
+            @keyframes strokes {
+                0% {
+                width: 0%;
+                }
+                50% {
+                width: 100%;
+                }
+                100% {
+                width: 100%;
+
+                }
+            }
+  
+            >div{
+                width: 30%;
+            }
         }
     }
 }
