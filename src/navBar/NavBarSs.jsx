@@ -7,7 +7,7 @@ const NavBarSs = () => {
         <div className="navBarSs grid">
             <img src="/images/company logo.png" alt="Bas Insurance Logo"/>
             <Hamburger toggled={isOpen} toggle={setOpen}/>
-            <div className={`menu ${isOpen?"menuOpen" : "menuClose"}`}>
+            <div className={`menu z-1 ${isOpen?"menuOpen" : "menuClose"}`}>
                 <a href="/">Home</a>
                 <a href="/services">Services</a>
                 <a href="/aboutUs">About us</a>

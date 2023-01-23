@@ -1,0 +1,155 @@
+@import"./variables";
+
+
+.Home{
+    scroll-behavior: smooth;
+    margin: 0 10px;
+    margin-top: 120px;
+   .HomeSection1{
+        div:first-child{
+        margin-top: 80px;
+        >h6:first-child{
+            font-size: $font-size-12px;
+        }
+        >h2{
+            color: $primary-colour-blue;
+            font-size: $font-size-20px;
+            font-weight: $font-weight-medium;
+            margin-top:15px ;
+            margin-bottom: 0;
+        }
+        >h6:nth-child(3){
+            font-size: $font-size-14px;
+            color: $tetiary-colour-gray;
+            margin-top: 10px;
+        }
+        .homeBtn{
+            margin-top: 25px;
+            button{
+                font-size: $font-size-12px;
+                
+            }
+            button:first-child{
+                background-color: $secondary-colour-green;
+            }
+            button:last-child{
+                border: 1px solid $secondary-colour-green;
+                margin-left: 16px;
+
+            }
+        }
+        >div:last-child{
+            margin-top: 20px;
+            >div{
+                img{
+                   width: 40px;
+                   margin-left: 15px;
+                }
+            }
+        }
+        }
+        >div:last-child{
+            width: 100%;
+            padding: 0 40px;
+            img{
+                width: 100%;
+            }
+        }
+   } 
+   .homeSection2{
+        >div:first-child{
+            margin-top: 40px;
+            >h6{
+                font-size: $font-size-14px;
+            }
+            >h3{
+                font-size: $font-size-16px;
+                color: $primary-colour-blue;
+            }
+            >h4{
+                font-size: $font-size-14px;
+               
+            }
+        }
+        >div:last-child{
+            div{
+                padding:40px 20px;
+                width: 70%;
+                margin: 25px auto;
+                background-color: $tetiary-colour-lightwhite;
+                border-radius: $border-radius-10px;
+                border-bottom: 3px solid $primary-colour-blue;
+                img{
+                    width: 60px;
+                    margin: 10px;
+                    
+                }
+                >h3{
+                    font-size: $font-size-14px;
+                    color: $primary-colour-blue;
+                    margin: 10px 0;
+                }
+                >h5{
+                    font-size: $font-size-12px;
+                    margin: 10px;
+                }
+            }
+        }
+
+    }
+}
+@media screen and (min-width:1200px) {
+    .Home{
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 180px;
+        // border: 1px solid red;
+        .HomeSection1{
+            div:first-child{
+                width: 50%;
+                padding-right: 150px;
+                margin: 0;
+    
+                >h6:first-child{
+                    font-size: $font-size-16px;
+                    margin-top: 20px;
+                }
+                >h2{
+                    font-size: 40px;
+                    margin-top: 20px;
+                }
+                >h6:nth-child(3){
+                    font-size: $font-size-18px;
+                    margin-top: 20px;
+                }
+                .homeBtn{
+                    margin-top: 58px;
+                    button{
+                        width: 171px;
+                        height: 48px;
+                        font-size: $font-size-16px;
+                    }
+                    
+                }
+                >div:last-child{
+                    margin-top: 40px;
+                    >p{
+                        font-size: $font-size-18px;
+                    }
+                    >div{
+                        img:first-child{
+                            width: 70px;
+                        }
+                        img:last-child{
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+            >div:last-child{
+                width: 50%;
+            }
+        }
+
+    }
+}
