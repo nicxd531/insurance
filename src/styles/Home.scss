@@ -77,8 +77,8 @@
                 width: 70%;
                 margin: 25px auto;
                 background-color: $tetiary-colour-lightwhite;
-                border-radius: $border-radius-10px;
                 border-bottom: 3px solid $primary-colour-blue;
+                box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
                 img{
                     width: 60px;
                     margin: 10px;
@@ -92,17 +92,129 @@
                 >h5{
                     font-size: $font-size-12px;
                     margin: 10px;
+                    color: $tetiary-colour-gray;
+                    text-align: center;
                 }
             }
         }
 
     }
+    .HomeSection3{
+        >div:first-child{
+            position: relative;
+            margin-top: 50px;
+            >img:first-child{
+             width: 60%;
+             margin: 0 auto;
+             z-index: 0;
+            } 
+            >img:last-child{
+                position: absolute;
+                left: 0;
+                width: 100%;
+                top: 1%;
+                z-index: 0;
+            }
+        }
+        >div:last-child{
+            margin-top: 145px;
+            text-align: center;
+            padding: 30px;
+            >h6{
+                font-size: $font-size-12px;
+            }
+            >h4{
+                font-size: $font-size-18px;
+                color: $primary-colour-blue;
+            }
+            >h5{
+                font-size: $font-size-14px;
+                text-align: justify;
+            }
+            >div{
+                margin-top: 15px;
+                >button{
+                    background-color: $secondary-colour-green;
+                }
+            }
+        }
+        
+    }
+    .HomeSection4{
+        >div:first-child{
+            flex-direction: column;
+            margin-bottom: 60px;
+            >div:first-child{
+                // border: 1px solid red;
+                width: 100%;
+                >div{
+                    height: 100px;
+                    width: 30%;
+                    border-bottom: 3px solid $secondary-colour-green;
+                    margin-left: 5%;
+                    
+                    img{
+                        width: 40px;
+                        margin-top: 13px;
+                        
+                    }
+                    h3{
+                        font-size: $font-size-16px;
+                        margin-top: 6px;
+                        color: $secondary-colour-green
+                    }
+                }
+                >div:first-child{
+                    margin-left: 0;
+                }
+                >div:nth-child(2),
+                >div:nth-child(3){
+                    border-bottom: 3px solid $primary-colour-blue;
+                    >h3{
+                        color: $primary-colour-blue;
+                    }
+                }
+
+            }
+            >div:last-child{
+                width: 100%;
+                margin-top: 60px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        >div:last-child{
+            margin-top: 60px;
+            >h5{
+                font-size: $font-size-14px;
+            }
+            >h3{
+                font-size: $font-size-20px;
+                color: $primary-colour-blue;
+            }
+            >p{
+                color: $tetiary-colour-gray;
+                font-size: $font-size-14px;
+                text-align: justify;
+            }
+            >div{
+                width: 100%;
+                margin-top: 15px;
+                button{
+                    background-color: $secondary-colour-green;
+                }
+            }
+            
+        }
+    }
 }
 @media screen and (min-width:1200px) {
     .Home{
-        max-width: 1200px;
+        max-width: 1100px;
         margin: 0 auto;
         margin-top: 180px;
+        padding: 0 20px;
         // border: 1px solid red;
         .HomeSection1{
             div:first-child{
@@ -141,7 +253,7 @@
                             width: 70px;
                         }
                         img:last-child{
-                            width: 50px;
+                            width: 20px;
                         }
                     }
                 }
@@ -150,6 +262,132 @@
                 width: 50%;
             }
         }
-
+        .homeSection2{
+            div:first-child{
+                margin-top: 189px;
+                >h6{
+                    font-size: $font-size-16px;
+                    
+                }
+                >h3{
+                    font-size: $font-size-24px;
+                    margin-top: 15px;
+                }
+                >h4{
+                    font-size: $font-size-18px;
+                    width: 549px;
+                    margin: 0 auto;
+                    margin-top: 20px;
+                }
+            }
+            div:last-child{
+                >div{
+                    width: 355px;
+                    box-sizing: border-box;
+                    height: 341px;
+                    box-shadow: none;
+                    margin-left: 10px;
+                    
+                    >img{
+                        width: 80px;
+                    }
+                    >h3{
+                        font-size: $font-size-18px;
+                    }
+                    >h5{
+                        font-size: $font-size-16px;
+                    }
+                }
+                >div:hover{
+                    scale: 1.05;
+                    transition:all ease-out 0.3s;
+                    cursor: pointer;
+                    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+                }
+            }
+        }
+        .HomeSection3{
+            margin-top: 181px;
+            >div:first-child{
+                width: 50%;
+                padding-left:120px ;
+            }
+            >div:last-child{
+                width: 50%;
+                margin-top: 0;
+                text-align: start;
+                padding-left: 150px;
+                >h6{
+                    font-size: $font-size-16px;
+                }
+                >h4{
+                    font-size: $font-size-24px;
+                }
+                >h5{
+                    font-size: $font-size-16px;
+    
+                }
+                >div{
+                    margin-top: 31px;
+                    >button{
+                        width: 171px;
+                    }
+                }
+            }
+        }
+        .HomeSection4{
+            margin-top: 242px;
+            >div:first-child{
+                width: 75%;
+                >div:first-child{
+                    width: 30%;
+                    margin-top: 0;
+                    >div{
+                    position: relative;
+                        >hr{
+                            height: 80%;
+                            width: 5px;
+                            background-color: $primary-colour-blue;
+                            border: 2px solid $primary-colour-blue;
+                            position: absolute;
+                            left: 0;
+                        }
+                        width: 100%;
+                        height: 30%;
+                        margin: 0;
+                        img{
+                            width: 40%;
+                        }
+                        h3{
+                            font-size: $font-size-18px;
+                            margin-top: 6px;
+                        }
+                    }
+                    >div:first-child{
+                        >hr{
+                            background-color: $secondary-colour-green;
+                            border: 2px solid $secondary-colour-green;
+                        }
+                    }
+                   
+                }
+                >div:last-child{
+                    width: 60%;
+                    margin: 0 2.5%;
+                }
+            }
+            >div:last-child{
+                width: 25%;
+                >h5{
+                    font-size: $font-size-16px;
+                }
+                >h3{
+                    font-size: $font-size-20px;
+                }
+                >p{
+                    font-size: $font-size-16px;
+                }
+            }
+        }
     }
 }

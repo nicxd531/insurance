@@ -4,7 +4,7 @@ import { useState } from "react";
 const NavBarSs = () => {
     const [isOpen, setOpen] = useState(false)
     return (  
-        <div className="navBarSs grid">
+        <div className="navBarSs grid " >
             <img src="/images/company logo.png" alt="Bas Insurance Logo"/>
             <Hamburger toggled={isOpen} toggle={setOpen}/>
             <div className={`menu z-1 ${isOpen?"menuOpen" : "menuClose"}`}>

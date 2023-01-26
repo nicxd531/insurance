@@ -66,8 +66,8 @@
   width: 70%;
   margin: 25px auto;
   background-color: #FAFAFA;
-  border-radius: 10px;
   border-bottom: 3px solid #255B7D;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
 }
 .Home .homeSection2 > div:last-child div img {
   width: 60px;
@@ -81,13 +81,116 @@
 .Home .homeSection2 > div:last-child div > h5 {
   font-size: 0.75rem;
   margin: 10px;
+  color: #868686;
+  text-align: center;
+}
+.Home .HomeSection3 > div:first-child {
+  position: relative;
+  margin-top: 50px;
+}
+.Home .HomeSection3 > div:first-child > img:first-child {
+  width: 60%;
+  margin: 0 auto;
+  z-index: 0;
+}
+.Home .HomeSection3 > div:first-child > img:last-child {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 1%;
+  z-index: 0;
+}
+.Home .HomeSection3 > div:last-child {
+  margin-top: 145px;
+  text-align: center;
+  padding: 30px;
+}
+.Home .HomeSection3 > div:last-child > h6 {
+  font-size: 0.75rem;
+}
+.Home .HomeSection3 > div:last-child > h4 {
+  font-size: 1.125rem;
+  color: #255B7D;
+}
+.Home .HomeSection3 > div:last-child > h5 {
+  font-size: 0.875rem;
+  text-align: justify;
+}
+.Home .HomeSection3 > div:last-child > div {
+  margin-top: 15px;
+}
+.Home .HomeSection3 > div:last-child > div > button {
+  background-color: #3CBF54;
+}
+.Home .HomeSection4 > div:first-child {
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.Home .HomeSection4 > div:first-child > div:first-child {
+  width: 100%;
+}
+.Home .HomeSection4 > div:first-child > div:first-child > div {
+  height: 100px;
+  width: 30%;
+  border-bottom: 3px solid #3CBF54;
+  margin-left: 5%;
+}
+.Home .HomeSection4 > div:first-child > div:first-child > div img {
+  width: 40px;
+  margin-top: 13px;
+}
+.Home .HomeSection4 > div:first-child > div:first-child > div h3 {
+  font-size: 1rem;
+  margin-top: 6px;
+  color: #3CBF54;
+}
+.Home .HomeSection4 > div:first-child > div:first-child > div:first-child {
+  margin-left: 0;
+}
+.Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(2),
+.Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(3) {
+  border-bottom: 3px solid #255B7D;
+}
+.Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(2) > h3,
+.Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(3) > h3 {
+  color: #255B7D;
+}
+.Home .HomeSection4 > div:first-child > div:last-child {
+  width: 100%;
+  margin-top: 60px;
+}
+.Home .HomeSection4 > div:first-child > div:last-child img {
+  width: 100%;
+}
+.Home .HomeSection4 > div:last-child {
+  margin-top: 60px;
+}
+.Home .HomeSection4 > div:last-child > h5 {
+  font-size: 0.875rem;
+}
+.Home .HomeSection4 > div:last-child > h3 {
+  font-size: 1.25rem;
+  color: #255B7D;
+}
+.Home .HomeSection4 > div:last-child > p {
+  color: #868686;
+  font-size: 0.875rem;
+  text-align: justify;
+}
+.Home .HomeSection4 > div:last-child > div {
+  width: 100%;
+  margin-top: 15px;
+}
+.Home .HomeSection4 > div:last-child > div button {
+  background-color: #3CBF54;
 }
 
 @media screen and (min-width: 1200px) {
   .Home {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     margin-top: 180px;
+    padding: 0 20px;
   }
   .Home .HomeSection1 div:first-child {
     width: 50%;
@@ -124,9 +227,126 @@
     width: 70px;
   }
   .Home .HomeSection1 div:first-child > div:last-child > div img:last-child {
-    width: 50px;
+    width: 20px;
   }
   .Home .HomeSection1 > div:last-child {
     width: 50%;
+  }
+  .Home .homeSection2 div:first-child {
+    margin-top: 189px;
+  }
+  .Home .homeSection2 div:first-child > h6 {
+    font-size: 1rem;
+  }
+  .Home .homeSection2 div:first-child > h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  .Home .homeSection2 div:first-child > h4 {
+    font-size: 1.125rem;
+    width: 549px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .Home .homeSection2 div:last-child > div {
+    width: 355px;
+    box-sizing: border-box;
+    height: 341px;
+    box-shadow: none;
+    margin-left: 10px;
+  }
+  .Home .homeSection2 div:last-child > div > img {
+    width: 80px;
+  }
+  .Home .homeSection2 div:last-child > div > h3 {
+    font-size: 1.125rem;
+  }
+  .Home .homeSection2 div:last-child > div > h5 {
+    font-size: 1rem;
+  }
+  .Home .homeSection2 div:last-child > div:hover {
+    scale: 1.05;
+    transition: all ease-out 0.3s;
+    cursor: pointer;
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  }
+  .Home .HomeSection3 {
+    margin-top: 181px;
+  }
+  .Home .HomeSection3 > div:first-child {
+    width: 50%;
+    padding-left: 120px;
+  }
+  .Home .HomeSection3 > div:last-child {
+    width: 50%;
+    margin-top: 0;
+    text-align: start;
+    padding-left: 150px;
+  }
+  .Home .HomeSection3 > div:last-child > h6 {
+    font-size: 1rem;
+  }
+  .Home .HomeSection3 > div:last-child > h4 {
+    font-size: 1.5rem;
+  }
+  .Home .HomeSection3 > div:last-child > h5 {
+    font-size: 1rem;
+  }
+  .Home .HomeSection3 > div:last-child > div {
+    margin-top: 31px;
+  }
+  .Home .HomeSection3 > div:last-child > div > button {
+    width: 171px;
+  }
+  .Home .HomeSection4 {
+    margin-top: 242px;
+  }
+  .Home .HomeSection4 > div:first-child {
+    width: 75%;
+  }
+  .Home .HomeSection4 > div:first-child > div:first-child {
+    width: 30%;
+    margin-top: 0;
+  }
+  .Home .HomeSection4 > div:first-child > div:first-child > div {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    margin: 0;
+  }
+  .Home .HomeSection4 > div:first-child > div:first-child > div > hr {
+    height: 80%;
+    width: 5px;
+    background-color: #255B7D;
+    border: 2px solid #255B7D;
+    position: absolute;
+    left: 0;
+  }
+  .Home .HomeSection4 > div:first-child > div:first-child > div img {
+    width: 40%;
+  }
+  .Home .HomeSection4 > div:first-child > div:first-child > div h3 {
+    font-size: 1.125rem;
+    margin-top: 6px;
+  }
+  .Home .HomeSection4 > div:first-child > div:first-child > div:first-child > hr {
+    background-color: #3CBF54;
+    border: 2px solid #3CBF54;
+  }
+  .Home .HomeSection4 > div:first-child > div:last-child {
+    width: 60%;
+    margin: 0 2.5%;
+  }
+  .Home .HomeSection4 > div:last-child {
+    width: 25%;
+  }
+  .Home .HomeSection4 > div:last-child > h5 {
+    font-size: 1rem;
+  }
+  .Home .HomeSection4 > div:last-child > h3 {
+    font-size: 1.25rem;
+  }
+  .Home .HomeSection4 > div:last-child > p {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=Home.css.map */

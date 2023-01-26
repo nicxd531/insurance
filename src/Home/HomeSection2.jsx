@@ -18,7 +18,7 @@ const HomeSection2 = () => {
     ]
     const card = info.map( data=>{
         return(
-            <div className="d-flex flex-column justify-content-center align-items-center">
+            <div className="d-flex flex-column justify-content-center rounded-top align-items-center">
                 <img src={data.image} alt="icon image"/>
                 <h3>{data.title}</h3>
                 <h5>{data.description}</h5>
@@ -26,7 +26,7 @@ const HomeSection2 = () => {
         )
     })
     return ( 
-        <section className="homeSection2 d-sm-flex flex-sm-column">
+        <section className="homeSection2 d-sm-flex flex-sm-column ">
             <div className="d-sm-flex flex-sm-column text-center">
                 <h6>Purpose</h6>
                 <h3>Why we are different from others</h3>
@@ -34,7 +34,7 @@ const HomeSection2 = () => {
                     Sar os med bejoskapet till ödleplåster, i prende nelöpp. 
                 </h4>
             </div>
-            <div>
+            <div className="d-xl-flex flex-xl-row">
                 {card}
             </div>
         </section>
