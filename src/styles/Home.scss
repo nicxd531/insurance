@@ -148,10 +148,10 @@
                 // border: 1px solid red;
                 width: 100%;
                 >div{
-                    height: 100px;
                     width: 30%;
                     border-bottom: 3px solid $secondary-colour-green;
                     margin-left: 5%;
+                    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
                     
                     img{
                         width: 40px;
@@ -340,7 +340,7 @@
             >div:first-child{
                 width: 75%;
                 >div:first-child{
-                    width: 30%;
+                    width: 25%;
                     margin-top: 0;
                     >div{
                     position: relative;

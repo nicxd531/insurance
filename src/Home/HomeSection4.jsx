@@ -16,9 +16,9 @@ const HomeSection4 = () => {
 
         }
     ]
-    const cards = data.map(data=>{
+    const cards = data.map((data ,index)=>{
         return(
-            <div className="d-flex flex-column align-items-center">
+            <div key={index} className="d-flex flex-column align-items-center">
                 <hr/>
                 <img src={data.image} alt="card icon"/>
                 <h3>{data.title}</h3>

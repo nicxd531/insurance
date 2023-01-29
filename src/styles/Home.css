@@ -130,10 +130,10 @@
   width: 100%;
 }
 .Home .HomeSection4 > div:first-child > div:first-child > div {
-  height: 100px;
   width: 30%;
   border-bottom: 3px solid #3CBF54;
   margin-left: 5%;
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
 }
 .Home .HomeSection4 > div:first-child > div:first-child > div img {
   width: 40px;
@@ -305,7 +305,7 @@
     width: 75%;
   }
   .Home .HomeSection4 > div:first-child > div:first-child {
-    width: 30%;
+    width: 25%;
     margin-top: 0;
   }
   .Home .HomeSection4 > div:first-child > div:first-child > div {

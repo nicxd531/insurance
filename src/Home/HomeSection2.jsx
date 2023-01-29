@@ -11,14 +11,14 @@ const HomeSection2 = () => {
             "description":"Lörem ipsum sall infraska alltså homonde i teleren epil vasm, till gongen. Lal on. Mikropol jyfande och speling exoss än infran telen fygyssa. Antirar homopängar. Lasenas enstik i temakonfirmation emedan hexabel spet till polyktig i sugen i lånat. "
         },
         {
-            "image":"Group 577.png",
+            "image":"./images/Group 577.png",
             "title":"Competitive Pricing",
             "description":"Lörem ipsum sall infraska alltså homonde i teleren epil vasm, till gongen. Lal on. Mikropol jyfande och speling exoss än infran telen fygyssa. Antirar homopängar. Lasenas enstik i temakonfirmation emedan hexabel spet till polyktig i sugen i lånat. "
         }
     ]
-    const card = info.map( data=>{
+    const card = info.map( (data, index)=>{
         return(
-            <div className="d-flex flex-column justify-content-center rounded-top align-items-center">
+            <div key={index} className="d-flex flex-column justify-content-center rounded-top align-items-center">
                 <img src={data.image} alt="icon image"/>
                 <h3>{data.title}</h3>
                 <h5>{data.description}</h5>
