@@ -1,4 +1,4 @@
-import NavBarBg from "./navBarBg";
+import NavBarBg from "./NavBarBg";
 import NavBarSs from "./NavBarSs";
 
 const NavBar = () => {
