@@ -1,6 +1,6 @@
 import {BrowserRouter as Router,Route, Routes} from 'react-router-dom'
 import "./index.css"
-import "./styles/navBAr.css"
+import "./styles/NavBAr.css"
 import NavBar from './navBar/NavBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home/Home';
