@@ -9,6 +9,7 @@ import AboutUs from './AboutUs/AboutUs';
 import Blog from './Blog/Blog';
 import ContactUs from './ContactUs/ContactUs';
 import OurPartners from './OurPartners/OurPartners';
+import Footer from './Footer/Footer';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/contactUs' element={<ContactUs/>}/>
           <Route path='/Partners' element={<OurPartners/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   )

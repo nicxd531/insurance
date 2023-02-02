@@ -364,6 +364,95 @@
             }
         }
     }
+    .HomeSection6{
+        >div:first-child{
+            margin-top: 70px;
+            >h6{
+                font-size: $font-size-16px;
+            }
+            >h4{
+                font-size: $font-size-18px;
+                color: $primary-colour-blue;
+            }
+            >h5{
+               font-size: $font-size-14px;
+               color: $tetiary-colour-gray;
+            }
+        }
+        >div:last-child{
+           .card2{
+            margin-top: 55px;
+            border-bottom:2px solid $primary-colour-blue;
+            margin-bottom: 2px;
+            >div:first-child{
+                background-color: $primary-colour-blue;
+                border-radius: 50%;
+                width: 45px;
+                height: 45px;
+                margin: 0 auto;
+                margin-top: 14px;
+                color: white;
+            }
+            >h5{
+                color: $primary-colour-blue;
+                margin-top: 14px;
+            }
+            >p{
+                text-align: justify;
+                margin-top: 14px;
+                color: $tetiary-colour-gray;
+            }
+           } 
+        }
+    }
+    .HomeSection7{
+        >div:first-child{
+            background-color: #E5EBEF;
+            margin-top: 77px;
+            padding: 20px;
+            >div:first-child{
+                >h6:first-child{
+                    font-size: $font-size-14px;
+                }
+                >h4{
+                    color: $primary-colour-blue;
+                    font-size: $font-size-20px;
+                }
+                >h6:last-child{
+                    color: $tetiary-colour-gray;
+                    font-size: $font-size-16px;
+                }
+            }
+            >form{
+                width: 100%;
+                background: rgba(217, 217, 217, 0.3);
+                border: 0.33px solid rgba(134, 134, 134, 0.3);
+                border-radius: 5px;
+                >input{
+                    border: none;
+                    background: transparent;
+                    padding-left: 10px;
+                }
+                >button{
+                    background-color: $secondary-colour-green;
+                    border-radius: 5px;
+                }
+            }
+        }
+        >div:last-child{
+            >h4{
+                background-color: #FAFAFA;
+                font-size: $font-size-16px;
+                color: $primary-colour-blue;
+                width: fit-content;
+                display: inline-block;
+            }
+            >img{
+                width: 50px;
+                margin-left: 20px;
+            }
+        }
+    }
 }
 @media screen and (min-width:1200px) {
     .Home{
@@ -605,6 +694,72 @@
                             }
                         }
                     }
+                }
+            }
+        }
+        .HomeSection6{
+            width: 100%;
+            >div:first-child{
+                >h6{
+                    font-size: $font-size-16px;
+                }
+                >h4{
+                    font-size: $font-size-24px;
+                }
+                >h5{
+                    font-size: $font-size-18px;
+                }
+            }
+            >div:last-child{
+                display: flex;
+                .card2{
+                    width: 50%;
+                    display: inline-block;
+                    padding: 15px;
+                    margin-bottom: 0;
+                }
+                .card2:nth-child(1){
+                    border-right: 2px solid $primary-colour-blue;
+                    padding: 15px;
+                }
+                .card2:nth-child(2){
+                    border-left: 2px solid $primary-colour-blue;
+                    padding: 15px;
+                }
+                .card2:nth-child(3){
+                    border-right: 2px solid $primary-colour-blue;
+                    border-top: 2px solid $primary-colour-blue;
+                    padding: 15px;
+                    border-bottom: none;
+                    margin-top: 0;
+                }
+                .card2:nth-child(4){
+                    border-bottom: none;
+                    border-top: 2px solid $primary-colour-blue;
+                    border-left: 2px solid $primary-colour-blue;
+                    padding: 15px;
+                    margin-top: 0;
+
+                }
+               
+            }
+        }
+        .HomeSection7{
+            >div:first-child{
+                padding: 40px 163px;
+                >div{
+                    width: fit-content;
+                }
+                >form{
+                    width:400px ;
+                    height: 48px;
+                }
+
+            }
+            >div:last-child{
+                margin-top: 40px;
+                >img{
+                    display: block;
                 }
             }
         }

@@ -327,6 +327,87 @@
   -o-object-fit: contain;
      object-fit: contain;
 }
+.Home .HomeSection6 > div:first-child {
+  margin-top: 70px;
+}
+.Home .HomeSection6 > div:first-child > h6 {
+  font-size: 1rem;
+}
+.Home .HomeSection6 > div:first-child > h4 {
+  font-size: 1.125rem;
+  color: #255B7D;
+}
+.Home .HomeSection6 > div:first-child > h5 {
+  font-size: 0.875rem;
+  color: #868686;
+}
+.Home .HomeSection6 > div:last-child .card2 {
+  margin-top: 55px;
+  border-bottom: 2px solid #255B7D;
+  margin-bottom: 2px;
+}
+.Home .HomeSection6 > div:last-child .card2 > div:first-child {
+  background-color: #255B7D;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  margin-top: 14px;
+  color: white;
+}
+.Home .HomeSection6 > div:last-child .card2 > h5 {
+  color: #255B7D;
+  margin-top: 14px;
+}
+.Home .HomeSection6 > div:last-child .card2 > p {
+  text-align: justify;
+  margin-top: 14px;
+  color: #868686;
+}
+.Home .HomeSection7 > div:first-child {
+  background-color: #E5EBEF;
+  margin-top: 77px;
+  padding: 20px;
+}
+.Home .HomeSection7 > div:first-child > div:first-child > h6:first-child {
+  font-size: 0.875rem;
+}
+.Home .HomeSection7 > div:first-child > div:first-child > h4 {
+  color: #255B7D;
+  font-size: 1.25rem;
+}
+.Home .HomeSection7 > div:first-child > div:first-child > h6:last-child {
+  color: #868686;
+  font-size: 1rem;
+}
+.Home .HomeSection7 > div:first-child > form {
+  width: 100%;
+  background: rgba(217, 217, 217, 0.3);
+  border: 0.33px solid rgba(134, 134, 134, 0.3);
+  border-radius: 5px;
+}
+.Home .HomeSection7 > div:first-child > form > input {
+  border: none;
+  background: transparent;
+  padding-left: 10px;
+}
+.Home .HomeSection7 > div:first-child > form > button {
+  background-color: #3CBF54;
+  border-radius: 5px;
+}
+.Home .HomeSection7 > div:last-child > h4 {
+  background-color: #FAFAFA;
+  font-size: 1rem;
+  color: #255B7D;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
+}
+.Home .HomeSection7 > div:last-child > img {
+  width: 50px;
+  margin-left: 20px;
+}
 
 @media screen and (min-width: 1200px) {
   .Home {
@@ -542,5 +623,66 @@
   .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider3 {
     margin-left: 90%;
     width: 10%;
+  }
+  .Home .HomeSection6 {
+    width: 100%;
+  }
+  .Home .HomeSection6 > div:first-child > h6 {
+    font-size: 1rem;
+  }
+  .Home .HomeSection6 > div:first-child > h4 {
+    font-size: 1.5rem;
+  }
+  .Home .HomeSection6 > div:first-child > h5 {
+    font-size: 1.125rem;
+  }
+  .Home .HomeSection6 > div:last-child {
+    display: flex;
+  }
+  .Home .HomeSection6 > div:last-child .card2 {
+    width: 50%;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 0;
+  }
+  .Home .HomeSection6 > div:last-child .card2:nth-child(1) {
+    border-right: 2px solid #255B7D;
+    padding: 15px;
+  }
+  .Home .HomeSection6 > div:last-child .card2:nth-child(2) {
+    border-left: 2px solid #255B7D;
+    padding: 15px;
+  }
+  .Home .HomeSection6 > div:last-child .card2:nth-child(3) {
+    border-right: 2px solid #255B7D;
+    border-top: 2px solid #255B7D;
+    padding: 15px;
+    border-bottom: none;
+    margin-top: 0;
+  }
+  .Home .HomeSection6 > div:last-child .card2:nth-child(4) {
+    border-bottom: none;
+    border-top: 2px solid #255B7D;
+    border-left: 2px solid #255B7D;
+    padding: 15px;
+    margin-top: 0;
+  }
+  .Home .HomeSection7 > div:first-child {
+    padding: 40px 163px;
+  }
+  .Home .HomeSection7 > div:first-child > div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .Home .HomeSection7 > div:first-child > form {
+    width: 400px;
+    height: 48px;
+  }
+  .Home .HomeSection7 > div:last-child {
+    margin-top: 40px;
+  }
+  .Home .HomeSection7 > div:last-child > img {
+    display: block;
   }
 }/*# sourceMappingURL=Home.css.map */
