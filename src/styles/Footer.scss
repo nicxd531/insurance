@@ -1,0 +1,113 @@
+@import"./variables";
+
+.footer{
+    background-color: #07020D;
+    color: white;
+    height: fit-content;
+    margin-top: 37px;
+    >div:first-child{
+        display: flex;
+        width: 100%;
+        padding-top: 18px;
+        >img{
+            margin: 0 auto;
+        }
+    }
+    >div:nth-child(2){
+        margin-top: 18px;
+        padding: 0 20px;
+        >div:first-child{
+            display: flex;
+            >div{
+                width: 50%;
+                >h3{
+                    font-size: $font-size-16px;
+                }
+                >h5{
+                    font-size: $font-size-14px;
+                    font-weight: 400;
+                    line-height: 27px;
+                    cursor: pointer;
+                }
+            }
+        }
+        >div:last-child{
+            text-align: center;
+            margin-top: 17px;
+            >h5{
+                font-size: $font-size-16px;
+            }
+        }
+    }
+    >div:nth-child(3){
+        text-align: center;
+        margin-top: 13px;
+       
+        >img{
+            margin-left: 10px;
+        }
+    }
+    >div:last-child{
+        text-align: center;
+        margin-top: 13px;
+        box-sizing: border-box;
+        >h5 {
+            margin-bottom: 4px;
+        }
+    }
+}
+@media screen and (min-width:1200px) {
+    .footer{
+        position: relative;
+        padding-top: 18px;
+        padding-bottom: 40px;
+        >div:first-of-type{
+            width: 30%;
+            >img{
+                margin: 0;
+                width: 147px;
+                height: 50px;
+            }
+        }
+        >div:nth-child(2){
+            width: 50%;
+            >div:first-child{
+                >div{
+                    >h3{
+                        font-size: $font-size-18px;
+                    }
+                    >h5{
+                        font-size: $font-size-16px;
+                    }
+                }
+            }
+            
+            >div:last-child{
+                text-align: start;
+                >h5{
+                    font-size: $font-size-20px;
+                }
+                >p{
+                    font-size: $font-size-18px;
+                }
+            }
+        }
+        >div:nth-child(3){
+            >h5{
+                font-size: $font-size-18px;
+            }
+            >img{
+                cursor: pointer;
+            }
+        }
+        >div:last-child{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            >h5{
+                font-size: $font-size-14px;
+            }
+        }
+    }
+  
+}

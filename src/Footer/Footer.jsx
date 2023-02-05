@@ -1,12 +1,14 @@
+import "../styles/Footer.css"
+
 const Footer = () => {
     return ( 
-        <section className="footer">
-            <div>
-                <img src="/images/company logo.png" alt="company logo"/>
+        <section className="footer d-xl-flex">
+            <div className="d-sm-flex justify-content-around">
+                <img src="/images/company logo 2.png" alt="company logo"/>
             </div>
             <div>
-                <div>
-                    <div>
+                <div className="d-sm-flex">
+                    <div className="flex-fill">
                         <h3>Sitemap</h3>
                         <h5><a>Home</a></h5>
                         <h5><a>Services</a></h5>
@@ -15,9 +17,9 @@ const Footer = () => {
                         <h5><a>Contact Us</a></h5>
                         <h5><a>Our partners</a></h5>
                     </div>
-                    <div>
-                    <h3>Help & Support</h3>
-                        <h5><a>FAQ’s</a></h5>
+                    <div className="flex-fill">
+                        <h3>Help & Support</h3>
+                        <h5><a>FAQ's</a></h5>
                         <h5><a>Terms of service</a></h5>
                         <h5><a>Privacy policy</a></h5>
                         <h5><a>Intellectual property claim</a></h5>

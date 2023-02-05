@@ -395,6 +395,9 @@
   background-color: #3CBF54;
   border-radius: 5px;
 }
+.Home .HomeSection7 > div:last-child {
+  margin-left: 60px;
+}
 .Home .HomeSection7 > div:last-child > h4 {
   background-color: #FAFAFA;
   font-size: 1rem;
