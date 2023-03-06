@@ -29,6 +29,9 @@
                     line-height: 27px;
                     cursor: pointer;
                 }
+                >h5:hover{
+                    text-decoration: underline;
+                }
             }
         }
         >div:last-child{
@@ -52,7 +55,8 @@
         margin-top: 13px;
         box-sizing: border-box;
         >h5 {
-            margin-bottom: 4px;
+            margin-bottom: 0px;
+            padding-bottom: 4px;
         }
     }
 }

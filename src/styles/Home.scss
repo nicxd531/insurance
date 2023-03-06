@@ -45,6 +45,7 @@
                    width: 40px;
                    margin-left: 15px;
                 }
+                
             }
         }
         }
@@ -61,17 +62,22 @@
             margin-top: 40px;
             >h6{
                 font-size: $font-size-14px;
+                color: $tetiary-colour-gray;
             }
             >h3{
                 font-size: $font-size-16px;
                 color: $primary-colour-blue;
+                font-weight: 600;
             }
             >h4{
                 font-size: $font-size-14px;
+                color: $tetiary-colour-gray;
+                
                
             }
         }
         >div:last-child{
+            
             div{
                 padding:40px 20px;
                 width: 70%;
@@ -88,6 +94,7 @@
                     font-size: $font-size-14px;
                     color: $primary-colour-blue;
                     margin: 10px 0;
+                    font-weight: 600;
                 }
                 >h5{
                     font-size: $font-size-12px;
@@ -122,6 +129,7 @@
             padding: 30px;
             >h6{
                 font-size: $font-size-12px;
+                color: #000000;
             }
             >h4{
                 font-size: $font-size-18px;
@@ -130,14 +138,32 @@
             >h5{
                 font-size: $font-size-14px;
                 text-align: justify;
+                color: $tetiary-colour-gray;
             }
             >div{
                 margin-top: 15px;
                 >button{
                     background-color: $secondary-colour-green;
+                    color: #eeeeee;
                 }
             }
         }
+        
+    } .imageSwapIn{
+        opacity: 1;
+        scale: 1;
+        transition: 0.5s all ease-in;
+    }
+    .imageSwapOut{
+        opacity: 0.2;
+        scale: 0.9;
+        transition: 0.5s all ease-out;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+
         
     }
     .HomeSection4{
@@ -147,6 +173,11 @@
             >div:first-child{
                 // border: 1px solid red;
                 width: 100%;
+                >div:hover{
+                    scale: 1.1;
+                    transition: all ease-out 0.3s;
+                    cursor: pointer;
+                }
                 >div{
                     width: 30%;
                     border-bottom: 3px solid $secondary-colour-green;
@@ -157,7 +188,9 @@
                         width: 40px;
                         margin-top: 13px;
                         
+                        
                     }
+                    
                     h3{
                         font-size: $font-size-16px;
                         margin-top: 6px;
@@ -174,24 +207,30 @@
                         color: $primary-colour-blue;
                     }
                 }
+               
 
             }
             >div:last-child{
                 width: 100%;
+                height: fit-content;
                 margin-top: 60px;
+                position: relative;
                 img{
                     width: 100%;
+                    border-radius: 50px;
                 }
             }
         }
         >div:last-child{
             margin-top: 60px;
+            align-items: center;
             >h5{
                 font-size: $font-size-14px;
             }
             >h3{
                 font-size: $font-size-20px;
                 color: $primary-colour-blue;
+                font-weight: 600;
             }
             >p{
                 color: $tetiary-colour-gray;
@@ -218,10 +257,12 @@
             >h3{
                 font-size: $font-size-18px;
                 color: $primary-colour-blue;
+                font-weight: 600;
             }
             >h4{
-                font-size: $font-size-14px;
+                font-size: $font-size-18px;
                 color: $tetiary-colour-gray;
+                margin: 0 auto;
             }
             >div:nth-child(4){
                 width: 200px;
@@ -243,6 +284,7 @@
                     font-style: normal;
                     font-size: $font-size-14px;
                     cursor: pointer;
+                    
                 }
                 >div{
                     border-radius: 25px;
@@ -284,6 +326,10 @@
                         padding:0 3px;
                         >div{
                             cursor: pointer;
+                            color: $primary-colour-blue;
+                            >h6{
+                                font-weight: 500;
+                            }
                         }
                     }
                     >div:last-child{
@@ -295,6 +341,7 @@
                             height: 4px;
                             margin: auto 0;
                             background-color: $primary-colour-blue;
+                            
                             
                         }
                         .toggleSlider1{
@@ -346,6 +393,8 @@
                             width: 141px;
                             margin: 0 auto;
                             margin-top: 18px;
+                            color: #eeeeee;
+                            font-size: $font-size-16px;
                         }
                         >div{
                             justify-content: center;
@@ -369,6 +418,7 @@
             margin-top: 70px;
             >h6{
                 font-size: $font-size-16px;
+                color: #000000;
             }
             >h4{
                 font-size: $font-size-18px;
@@ -432,15 +482,18 @@
                     border: none;
                     background: transparent;
                     padding-left: 10px;
+                    outline: none;
                 }
                 >button{
                     background-color: $secondary-colour-green;
                     border-radius: 5px;
+                    color: #eeeeee;
                 }
             }
         }
         >div:last-child{
             margin-left: 60px;
+            margin-top: 10px;
             >h4{
                 background-color: #FAFAFA;
                 font-size: $font-size-16px;
@@ -457,12 +510,13 @@
 }
 @media screen and (min-width:1200px) {
     .Home{
-        max-width: 1100px;
-        margin: 0 auto;
+        margin: 0;
         margin-top: 180px;
-        padding: 0 20px;
+        
         // border: 1px solid red;
         .HomeSection1{
+            max-width: 1100px;
+            margin: 0 auto;
             div:first-child{
                 width: 50%;
                 padding-right: 150px;
@@ -493,22 +547,26 @@
                     margin-top: 40px;
                     >p{
                         font-size: $font-size-18px;
+                        margin: auto 0;
                     }
                     >div{
                         img:first-child{
                             width: 70px;
                         }
                         img:last-child{
-                            width: 20px;
+                            width: 50px;
                         }
                     }
                 }
             }
             >div:last-child{
+                margin-left: 50px;
                 width: 50%;
             }
         }
         .homeSection2{
+            max-width: 1100px;
+            margin: 0 auto;
             div:first-child{
                 margin-top: 189px;
                 >h6{
@@ -518,12 +576,13 @@
                 >h3{
                     font-size: $font-size-24px;
                     margin-top: 15px;
+                    margin-bottom: 0;
                 }
                 >h4{
                     font-size: $font-size-18px;
                     width: 549px;
                     margin: 0 auto;
-                    margin-top: 20px;
+                    margin-top: 12px;
                 }
             }
             div:last-child{
@@ -553,6 +612,8 @@
             }
         }
         .HomeSection3{
+            max-width: 1100px;
+            margin: 0 auto;
             margin-top: 181px;
             >div:first-child{
                 width: 50%;
@@ -577,19 +638,30 @@
                     margin-top: 31px;
                     >button{
                         width: 171px;
+                        height: 48px;
+                        font-size: 16px;
                     }
                 }
             }
         }
         .HomeSection4{
+            max-width: 1100px;
+            margin: 0 auto;
             margin-top: 242px;
             >div:first-child{
                 width: 75%;
                 >div:first-child{
                     width: 25%;
                     margin-top: 0;
+                    >div:nth-child(2),
+                    >div:nth-child(1){
+                        margin-bottom:66px;
+                    }
                     >div{
                     position: relative;
+                    display: flex;
+                    justify-content: center;
+                    
                         >hr{
                             height: 80%;
                             width: 5px;
@@ -620,22 +692,41 @@
                 >div:last-child{
                     width: 60%;
                     margin: 0 2.5%;
+                    >img{
+                        border-radius: 50px;
+                    }
                 }
             }
             >div:last-child{
                 width: 25%;
                 >h5{
                     font-size: $font-size-16px;
+                
                 }
                 >h3{
-                    font-size: $font-size-20px;
+                    font-size: $font-size-24px;
+                   margin-top: 12px;
                 }
                 >p{
                     font-size: $font-size-16px;
+                    line-height: 24px;
+                    margin-top: 12px;
+                }
+                >div:last-child{
+                    button{
+                        width: 171px;
+                        height: 48px;
+                        color: #eeeeee;
+                        font-size: 16px;
+                        
+                    }
                 }
             }
         }
         .HomeSection5{
+            max-width: 1100px;
+            margin: 0 auto;
+            
             >div:first-child{
                 >h6{
                     font-size: $font-size-16px;
@@ -645,6 +736,7 @@
                 }
                 >h4{
                     font-size: $font-size-24px;
+                    width: 500px;
                 }
                 >div:last-child{
                     width: 300px;
@@ -695,10 +787,23 @@
                             }
                         }
                     }
+                    >div:last-child{
+                        .card4{
+                            height: 416px;
+                            >h5{
+                                font-size: $font-size-18px;
+                            }
+                            >h4{
+                                font-size:28px;
+                            }
+                        }
+                    }
                 }
             }
         }
         .HomeSection6{
+            max-width: 1100px;
+            margin: 0 auto;
             width: 100%;
             >div:first-child{
                 >h6{
@@ -718,6 +823,18 @@
                     display: inline-block;
                     padding: 15px;
                     margin-bottom: 0;
+                    >div:first-child{
+                        text-align: start;
+                        margin: 0;
+                        margin-left: 50px;
+                    }
+                    >h5{
+                        text-align: start;
+                        margin-left: 50px;
+                    }
+                    >p{
+                        padding: 0 50px;
+                    }
                 }
                 .card2:nth-child(1){
                     border-right: 2px solid $primary-colour-blue;
@@ -746,19 +863,30 @@
             }
         }
         .HomeSection7{
+            justify-content: space-between;
             >div:first-child{
                 padding: 40px 163px;
                 >div{
                     width: fit-content;
+                    margin-right: 50px;
+                    width: 40%;
                 }
                 >form{
-                    width:400px ;
+                    width:489px ;
                     height: 48px;
+                    margin-left: 126px;
+                    >button{
+                        width: 120px;
+                        height: 46px;
+                       
+                    }
                 }
 
             }
             >div:last-child{
                 margin-top: 40px;
+                margin-right: 143px;
+                
                 >img{
                     display: block;
                 }

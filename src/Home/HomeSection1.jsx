@@ -1,10 +1,12 @@
 const HomeSection1 = () => {
+    // first section of the homepage with just pure html edits can be made but take note of the bootstrap classnames 
+
     return ( 
         <div className="HomeSection1 d-xl-flex">
             <div>
                 <h6>First stop insurance marketplace</h6>
                 <h2>All-in-one platform to get your insurance.</h2>
-                <h6>Lörem ipsum kror kaligt väjagen som osade. Heterogon möreligt, prepirade. Decitosunat astrohajat, kemkastrering ren ore.  </h6>
+                <h6>An arrangement by which a company or the state undertakes to provide a guarantee of compensation for specified loss, damage.</h6>
                 <div className="homeBtn">
                     <button type="button" className="btn ">Get started</button>
                     <button type="button" className="btn btn-outline-success">Get a quote</button>

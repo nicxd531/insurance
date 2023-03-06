@@ -1,21 +1,27 @@
 const HomeSection2 = () => {
+
+    // second page file in the  main homepage
+
+    // list of data used to create the purpose cards
     const info=[
         {
             "image":"./images/Group 7.png",
             "title":"Clear Communication",
-            "description":"Lörem ipsum sall infraska alltså homonde i teleren epil vasm, till gongen. Lal on. Mikropol jyfande och speling exoss än infran telen fygyssa. Antirar homopängar. Lasenas enstik i temakonfirmation emedan hexabel spet till polyktig i sugen i lånat. "
+            "description":"Effective communication is essential in the insurance market. Not only does it help build strong relationships, it also ensures customer fully understand both the products and the process."
         },
         {
             "image":"./images/Group 23.png",
             "title":"Flexible Payment Plans",
-            "description":"Lörem ipsum sall infraska alltså homonde i teleren epil vasm, till gongen. Lal on. Mikropol jyfande och speling exoss än infran telen fygyssa. Antirar homopängar. Lasenas enstik i temakonfirmation emedan hexabel spet till polyktig i sugen i lånat. "
+            "description":"Premium flexibility means that policy owners can choose to pay what they can, when they can. This will allow them to increase the cash value of their policy more quickly if they have the resources to do so."
         },
         {
             "image":"./images/Group 577.png",
             "title":"Competitive Pricing",
-            "description":"Lörem ipsum sall infraska alltså homonde i teleren epil vasm, till gongen. Lal on. Mikropol jyfande och speling exoss än infran telen fygyssa. Antirar homopängar. Lasenas enstik i temakonfirmation emedan hexabel spet till polyktig i sugen i lånat. "
+            "description":"In the digital era, customers expect insurance prices to be easily available online. They will make inquiries for home and car insurance on price comparison websites and expect prices to be available immediately."
         }
     ]
+
+    // card map with the use of the info data from above then imported into the return
     const card = info.map( (data, index)=>{
         return(
             <div key={index} className="d-flex flex-column justify-content-center rounded-top align-items-center">
@@ -30,11 +36,11 @@ const HomeSection2 = () => {
             <div className="d-sm-flex flex-sm-column text-center">
                 <h6>Purpose</h6>
                 <h3>Why we are different from others</h3>
-                <h4>Lörem ipsum jona tåpov syntris ohet. Fotofiering nyrade prede. 
-                    Sar os med bejoskapet till ödleplåster, i prende nelöpp. 
+                <h4>We provide the cover against unforeseen events that enables individuals and businesses to carry out their daily activities
                 </h4>
             </div>
             <div className="d-xl-flex flex-xl-row">
+                {/* the imported map */}
                 {card}
             </div>
         </section>

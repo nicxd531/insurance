@@ -1,9 +1,15 @@
-import { useState
- } from "react";
+import { useState } from "react";
+
 const HomeSection5 = () => {
+    // the 5th file  for the main homepage
+
+    // use state hook to toggle the Yearly and monthly btn 
     const [toggleBtn, setToggleBtn] = useState(false)
+
+    // use state hook to toggle the category of plans 
     const [toggleSlider, setToggleslider] = useState(1)
 
+    // object data for the plans
     const AutomobileMonthly =[
         {
             title:"Personal",
@@ -124,10 +130,11 @@ const HomeSection5 = () => {
             listed:"os med bejoskapet till ödleplåster."
         }
     ]
-
+    
+    // maps for each category data them imported directly into a variable in sectioon to the yearly and monthly planning 
     const AutomobileMonthlyMap = AutomobileMonthly.map((data,index)=>{
         return (
-            <div className="card4" key={index}>
+            <div data-aos="zoom-in" className="card4" key={index}>
                 <h5>{data.title}</h5>
                 <h4>{data.cost}</h4>
                 <h5>monthly</h5>
@@ -142,7 +149,7 @@ const HomeSection5 = () => {
     })
     const AutomobileYearlyMap = AutomobileYearly.map((data,index)=>{
         return (
-            <div className="card4" key={index}>
+            <div data-aos="zoom-in" className="card4" key={index}>
                 <h5>{data.title}</h5>
                 <h4>{data.cost}</h4>
                 <h5>yearly</h5>
@@ -157,7 +164,7 @@ const HomeSection5 = () => {
     })
     const HealthLifeMonthlyMap = HealthLifeMonthly.map((data,index)=>{
         return (
-            <div className="card4" key={index}>
+            <div data-aos="zoom-in" className="card4" key={index}>
                 <h5>{data.title}</h5>
                 <h4>{data.cost}</h4>
                 <h5>monthly</h5>
@@ -172,7 +179,7 @@ const HomeSection5 = () => {
     })
     const HealthLifeYearlyMap = HealthLifeYearly.map((data,index)=>{
         return (
-            <div className="card4" key={index}>
+            <div data-aos="zoom-in" className="card4" key={index}>
                 <h5>{data.title}</h5>
                 <h4>{data.cost}</h4>
                 <h5>yearly</h5>
@@ -187,7 +194,7 @@ const HomeSection5 = () => {
     })
     const DeviceMonthlyMap = DeviceMonthly.map((data,index)=>{
         return (
-            <div className="card4" key={index}>
+            <div data-aos="zoom-in" className="card4" key={index}>
                 <h5>{data.title}</h5>
                 <h4>{data.cost}</h4>
                 <h5>monthly</h5>
@@ -202,7 +209,7 @@ const HomeSection5 = () => {
     })
     const DeviceYearlyMap = DeviceYearly.map((data,index)=>{
         return (
-            <div className="card4" key={index}>
+            <div data-aos="zoom-in" className="card4" key={index}>
                 <h5>{data.title}</h5>
                 <h4>{data.cost}</h4>
                 <h5>yearly</h5>
@@ -216,7 +223,7 @@ const HomeSection5 = () => {
 
     })
 
-
+    // sectioning of plan category into yearly and monthly then imported into return 
     const monthly = <div className="d-xl-flex">
                         {toggleSlider===1 && AutomobileMonthlyMap}
                         {toggleSlider===2 && HealthLifeMonthlyMap}
@@ -227,6 +234,8 @@ const HomeSection5 = () => {
                         {toggleSlider===2 && HealthLifeYearlyMap}
                         {toggleSlider===3 && DeviceYearlyMap}
                     </div>
+
+    // menu nav for the main category withe the use of the hooks 
     const menuTop= <div>
                         <div className="d-flex justify-content-between ">
                             <div onClick={()=>setToggleslider(1)} className="d-xl-flex align-items-xl-center justify-content-xl-center"><img src="/images/Vector.png" alt="icon"/><h6>Automobile</h6></div>
@@ -254,6 +263,7 @@ const HomeSection5 = () => {
             </div>
             <div className="text-center">
                 <div>
+                    {/* imported maps */}
                     {menuTop}
                     {toggleBtn === true ? Yearly : monthly }
                 </div>

@@ -1,1 +1,10 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"Services.css"}
+{
+    "version": 3,
+    "mappings": "AAGA,AAEI,SAFK,CAEL,iBAAiB,CAAA;EACb,UAAU,EAAE,qCAAqC,CAAC,SAAS,CAAC,KAAK,CAAC,MAAM;EACxE,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "Services.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "Services.css"
+}

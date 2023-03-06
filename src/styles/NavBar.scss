@@ -30,7 +30,17 @@
                 height: 30px;
                 display: flex;
                 align-items: center;
+                color: $primary-colour-blue;
+                font-weight: 600;
                cursor: pointer;
+               text-decoration: none;
+               border-bottom: 1px solid whitesmoke;
+               width: 100%;
+               align-items: center;
+               display: flex;
+               justify-content: space-around;
+               
+               
               
             }
         }
@@ -58,6 +68,7 @@
 }
 @media screen and (min-width:1200px) {
     .navBar{
+        
         .navBarSs{
             display: none;
         }
@@ -65,7 +76,8 @@
             display: inline-block;
             margin-top: 25px;
             width: 100%;
-            height: 40px;
+            height: 25px;
+            
             >a{
                 font-size: $font-size-16px;
                 color:$primary-colour-blue;
@@ -80,10 +92,10 @@
                 right: 0;
                 margin: auto;
                 width: 0%;
-                content: '.';
+                content: '';
                 color: transparent;
                 background: $secondary-colour-green;
-                height: 3px;
+                height: 2px;
             }
             .strokes:hover::after,
             .strokes:active::after{

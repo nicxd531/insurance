@@ -10,10 +10,21 @@ import Blog from './Blog/Blog';
 import ContactUs from './ContactUs/ContactUs';
 import OurPartners from './OurPartners/OurPartners';
 import Footer from './Footer/Footer';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 
 function App() {
 
+  // calling aos on refresh
+  useEffect(()=>{
+    AOS.init(
+       { duration: 600,
+        easing: 'ease',
+        once: false}
+    );
+  })
   return (
     <div className="App">
       <Router>

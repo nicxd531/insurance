@@ -1,4 +1,6 @@
 const HomeSection3 = () => {
+
+    // third file that make the main homepage it contains just pure html 
     return ( 
         <div className="HomeSection3 d-xl-flex">
             <div className="d-flex align-items-center">
@@ -8,8 +10,7 @@ const HomeSection3 = () => {
             <div>
                 <h6>About Us</h6>
                 <h4>We are always making life better</h4>
-                <h5>Lörem ipsum jövis dutyskap spekros. Er heterorad. Prende tögingen lyvis eller fäkosam dotäss julgranssyndrom för att tirar astrolig. Bonus malus reabåbelt. Nengar okugen girad: nys, utan kakron kulyrade fide etnolog.Exobel prede oaktat itest: eurokuhong  
-                    Bipona bemägisk eura att närtad. Poskap gåtåg som båd innan operafiering. Diras heterojågen delyligt ultrajöv vivagt tvodd. Megaprement antigisk multidasade dogäning makrovis, i oren. Latäplaliga mide, rilaheten sperad homol plaheten, att begen vittneslitteratur nopände. Backflyt laliga. 
+                <h5>As an insurance company, Our goal is to be the insurer of choice and the leading insurance company in Nigeria – providing life insurance and retirement services as well as risk underwriting to a substantial and diversified client base, which includes corporations, financial institutions, governments and individuals in Nigeria. We are the market leader in Retail Life insurance and retirement services and is a market leader in Non-Life insurance in Nigeria. The core insurance franchise is complemented by our leading insurance asset management, and health management. 
                 </h5>
                 <div className="d-flex ">
                     <button className="btn">Learn more</button>

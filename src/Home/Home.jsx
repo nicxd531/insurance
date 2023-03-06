@@ -7,6 +7,9 @@ import HomeSection5 from "./HomeSection5";
 import HomeSection6 from "./HomeSection6";
 import HomeSection7 from "./HomeSection7";
 const Home = () => {
+    // this is the main home file that contains diffrent section of the home page that makes up the page
+    // each of the sections are imported here to make up home page only 
+    // each file are named according to their position on the main homepage
     return ( 
         <main className="Home">
             <HomeSection1/>

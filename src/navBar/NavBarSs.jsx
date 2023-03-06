@@ -2,6 +2,9 @@ import {Twirl as Hamburger} from "hamburger-react"
 import { useState } from "react";
 
 const NavBarSs = () => {
+    // web version navigation file contains only html and css and disappears based on break points 
+
+    // use state hook for the Hamburger menu
     const [isOpen, setOpen] = useState(false)
     return (  
         <div className="navBarSs grid " >

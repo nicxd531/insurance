@@ -1,5 +1,7 @@
  import "../styles/NavBar.css"
 const NavBarBg = () => {
+    // web version navigation file contains only html and css and disappears based on break points 
+
     return ( 
         <div className="d-xl-flex navarBs justify-content-xl-around lign-items-xl-center" >
             <a href="/" className="strokes">Home</a>

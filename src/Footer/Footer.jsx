@@ -1,9 +1,11 @@
 import "../styles/Footer.css"
 
 const Footer = () => {
+    // main footer for the whole website contains pure html and bootstrap classname
+
     return ( 
         <section className="footer d-xl-flex">
-            <div className="d-sm-flex justify-content-around">
+            <div  className="d-sm-flex justify-content-around">
                 <img src="/images/company logo 2.png" alt="company logo"/>
             </div>
             <div>

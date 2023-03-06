@@ -1,4 +1,7 @@
 const HomeSection7 = () => {
+    // the 7th file that makes up the main home page contains pure html and bootstrap className
+
+    
     return ( 
         <section className="HomeSection7">
             <div className="d-xl-flex justify-content-xl-center align-items-xl-center">
