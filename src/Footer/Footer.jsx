@@ -6,7 +6,7 @@ const Footer = () => {
     return ( 
         <section className="footer d-xl-flex">
             <div  className="d-sm-flex justify-content-around">
-                <img src="/images/company logo 2.png" alt="company logo"/>
+                <img src="/images/company logo.png" alt="company logo"/>
             </div>
             <div>
                 <div className="d-sm-flex">
