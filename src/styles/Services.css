@@ -165,6 +165,9 @@
     height: 48px;
     font-size: 1rem;
   }
+  .services .servicesSection2 > div:first-child {
+    padding: 0 40px;
+  }
   .services .servicesSection2 > div:last-child {
     padding: 0 120px;
   }

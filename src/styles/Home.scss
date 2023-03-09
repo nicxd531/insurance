@@ -1,6 +1,7 @@
 // imported variables for usse in this file
 @import"./variables";
 
+
 // note: each main section contains multiple sections in them with numbering according to their positions 
 
 // home styles for below 1200px
@@ -8,6 +9,7 @@
     scroll-behavior: smooth;
     margin: 0 10px;
     margin-top: 120px;
+    font-weight: 500;
    .HomeSection1{
         div:first-child{
         margin-top: 80px;

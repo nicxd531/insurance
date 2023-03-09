@@ -171,6 +171,9 @@
             }
         }
         .servicesSection2{
+            >div:first-child{
+                padding: 0 40px;
+            }
             >div:last-child{
                 padding: 0 120px;
                 >div:first-child{
