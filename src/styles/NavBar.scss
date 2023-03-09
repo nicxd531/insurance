@@ -1,10 +1,15 @@
+// imported variables for usse in this file
 @import "./variables";
 
+// note: each main section contains multiple sections in them with numbering according to their positions 
+
+// navBar styles for below 1200px
 .navBar{
     width: 100vw;
     position: fixed;
     top: 0;
     background-color: $tetiary-colour-white;
+
     .navBarSs{
         width: 100vw;
         height: fit-content;
@@ -66,6 +71,8 @@
         display: none;
     }
 }
+
+// navBar styles for above 1200px
 @media screen and (min-width:1200px) {
     .navBar{
         
@@ -123,6 +130,87 @@
                         cursor: pointer;
                     }
                 }
+            }
+        }
+    }
+}
+
+
+// miniNav styles for above 1200px
+.miniNav{
+    >div:first-child{
+        box-sizing: border-box;
+        padding:0 3px;
+        >div{
+            cursor: pointer;
+            color: $primary-colour-blue;
+            >h6{
+                font-weight: 500;
+            }
+        }
+    }
+    >div:last-child{
+        width: 100%;
+        background-color: #eeeeee;
+        height: 5px;
+        >div{
+            width: 25%;
+            height: 4px;
+            margin: auto 0;
+            background-color: $primary-colour-blue;
+            
+        }
+        .toggleSlider1{
+            margin-left: 0;
+            transition: all ease-in 0.5s;
+        }
+        .toggleSlider2{
+            margin-left: 43%;
+            width: 23%;
+            transition: all ease-out 0.5s;
+        }
+        .toggleSlider3{
+            margin-left: 83%;
+            width: 17%;
+            transition: all ease-out 0.5s;
+        }
+       
+    }
+    
+}
+
+// miniNav styles for above 1200px
+@media screen and (min-width:1200px) {
+    .miniNav{
+        >div:first-child{
+            margin-bottom: 21px;
+            >div{
+                width: fit-content;
+
+                >img{
+                    width: fit-content;
+                }
+                h6{
+                    font-size: $font-size-18px;
+                    margin-left: 12px;
+                }
+            }
+        }
+        >div:last-child{
+            .toggleSlider1{
+                margin-left: 0;
+                width: 15%;
+               
+            }
+            .toggleSlider2{
+                margin-left: 44%;
+                width: 15%;
+               
+            }
+            .toggleSlider3{
+                margin-left: 90%;
+                width: 10%;
+
             }
         }
     }

@@ -1,7 +1,208 @@
 .services .servicesSection1 {
-  background: url("/images/servicesbackground.jpg") no-repeat fixed center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 40px;
+  height: 100vh;
+  position: relative;
+}
+
+.services .servicesSection1 > img {
+  position: absolute;
+  z-index: -1;
+  aspect-ratio: 3/2;
+  scale: 0.6;
+  opacity: 0.7;
+}
+
+.services .servicesSection1 > img:nth-child(1) {
+  top: 12%;
+  left: 5%;
+}
+
+.services .servicesSection1 > img:nth-child(2) {
+  top: 18%;
+  left: 37%;
+}
+
+.services .servicesSection1 > img:nth-child(3) {
+  top: 12%;
+  right: 5%;
+}
+
+.services .servicesSection1 > img:nth-child(4) {
+  bottom: 10%;
+  left: 5%;
+}
+
+.services .servicesSection1 > img:nth-child(5) {
+  bottom: 18%;
+  left: 37%;
+}
+
+.services .servicesSection1 > img:nth-child(6) {
+  bottom: 10%;
+  right: 5%;
+}
+
+.services .servicesSection1 > div {
+  padding: 10px;
+}
+
+.services .servicesSection1 > div > h5:first-child {
+  font-size: 1.125rem;
+}
+
+.services .servicesSection1 > div > h4 {
+  color: #255B7D;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.services .servicesSection1 > div > h5:nth-child(3) {
+  color: #868686;
+  font-size: 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.services .servicesSection1 > div > button {
+  text-transform: capitalize;
+  background-color: #3CBF54;
+  color: white;
+  margin-top: 23px;
+}
+
+.services .servicesSection2 > div:first-child {
+  padding: 0 10px;
+}
+
+.services .servicesSection2 > div:first-child .miniNav {
+  text-align: center;
+}
+
+.services .servicesSection2 > :last-child {
+  margin-top: 23px;
+  background-color: rgba(92, 246, 74, 0.2);
+}
+
+.services .servicesSection2 > :last-child > div:first-child > h2 {
+  padding-top: 20px;
+  color: #255B7D;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.services .servicesSection2 > :last-child > div:first-child > h5 {
+  color: #868686;
+}
+
+.services .servicesSection2 > :last-child .card3 {
+  margin-top: 51px;
+}
+
+.services .servicesSection2 > :last-child .card3 > div {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services .servicesSection2 > :last-child .card3 > div > div:first-child {
+  background-color: #255B7D;
+  padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.services .servicesSection2 > :last-child .card3 > div > h3 {
+  font-size: 1.25rem;
+  color: #255B7D;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.services .servicesSection2 > :last-child .card3 > div > p {
+  color: #868686;
+  font-size: 1.125rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .services .servicesSection1 > img {
+    scale: 1;
+  }
+  .services .servicesSection1 > img:nth-child(2) {
+    top: 44%;
+    left: 15%;
+  }
+  .services .servicesSection1 > img:nth-child(3) {
+    top: 10%;
+    right: 5%;
+  }
+  .services .servicesSection1 > img:nth-child(4) {
+    bottom: 10%;
+    left: 5%;
+  }
+  .services .servicesSection1 > img:nth-child(5) {
+    top: 45%;
+    left: 75%;
+  }
+  .services .servicesSection1 > img:nth-child(6) {
+    bottom: 10%;
+    right: 5%;
+  }
+  .services .servicesSection1 > div > h5:first-child {
+    font-size: 1rem;
+  }
+  .services .servicesSection1 > div > h4 {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .services .servicesSection1 > div > h5:nth-child(3) {
+    font-size: 1.125rem;
+    width: 385px;
+  }
+  .services .servicesSection1 > div > button {
+    width: 171px;
+    height: 48px;
+    font-size: 1rem;
+  }
+  .services .servicesSection2 > div:last-child {
+    padding: 0 120px;
+  }
+  .services .servicesSection2 > div:last-child > div:first-child {
+    padding-top: 39px;
+  }
+  .services .servicesSection2 > div:last-child > div:first-child > h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .services .servicesSection2 > div:last-child > div:first-child > h5 {
+    font-size: 1.125rem;
+  }
+  .services .servicesSection2 > div:last-child .card3 {
+    margin-top: 102px;
+  }
+  .services .servicesSection2 > div:last-child .card3 > div:first-child {
+    margin-left: 0;
+  }
+  .services .servicesSection2 > div:last-child .card3 > div {
+    margin: 0;
+    padding: 0 auto;
+    margin-left: 5%;
+    width: 30%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .services .servicesSection2 > div:last-child .card3 > div > div:first-child {
+    padding: 23px;
+  }
+  .services .servicesSection2 > div:last-child .card3 > div > h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 15px;
+  }
+  .services .servicesSection2 > div:last-child .card3 > div > p {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=Services.css.map */

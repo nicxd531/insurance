@@ -5,6 +5,7 @@
   height: -moz-fit-content;
   height: fit-content;
   margin-top: 37px;
+  font-weight: 400;
 }
 
 .footer > div:first-child {
@@ -84,6 +85,7 @@
     position: relative;
     padding-top: 18px;
     padding-bottom: 40px;
+    font-weight: 500;
   }
   .footer > div:first-of-type {
     width: 30%;

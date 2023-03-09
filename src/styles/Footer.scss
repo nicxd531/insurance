@@ -1,10 +1,15 @@
+// imported variables for usse in this file
 @import"./variables";
 
+// note: each main section contains multiple sections in them with numbering according to their positions 
+
+// footer styles for below 1200px
 .footer{
     background-color: #07020D;
     color: white;
     height: fit-content;
     margin-top: 37px;
+    font-weight: 400;
     >div:first-child{
         display: flex;
         width: 100%;
@@ -60,11 +65,14 @@
         }
     }
 }
+
+// footer styles for above 1200px
 @media screen and (min-width:1200px) {
     .footer{
         position: relative;
         padding-top: 18px;
         padding-bottom: 40px;
+        font-weight: 500;
         >div:first-of-type{
             width: 30%;
             >img{

@@ -1,12 +1,214 @@
+// imported variables for usse in this file
 @import"./variables";
 
+// note: each main section contains multiple sections in them with numbering according to their positions 
 
+// services styles for below 1200px
 .services{
     
     .servicesSection1{
-        background: url("/images/servicesbackground.jpg") no-repeat fixed center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin-top: 40px;
+        height: 100vh;
+        position: relative;
+        >img{
+            position: absolute;
+            z-index: -1;
+            aspect-ratio: 3/2;
+            scale:0.6;
+            opacity: 0.7;
+        }
+        >img:nth-child(1){
+            top: 12%;
+            left: 5%;
+        }
+        >img:nth-child(2){
+            top: 18%;
+            left: 37%;
+        }
+        >img:nth-child(3){
+            top: 12%;
+            right: 5%;
+        }
+        >img:nth-child(4){
+            bottom: 10%;
+            left: 5%;
+        }
+        >img:nth-child(5){
+            bottom: 18%;
+            left: 37%;
+        }
+        >img:nth-child(6){
+            bottom: 10%;
+            right: 5%;
+        }
+        >div{
+            padding: 10px;
+            >h5:first-child{
+                font-size: $font-size-18px;
+            }
+            >h4{
+                color:$primary-colour-blue;
+                font-weight: 600;
+                font-size: 30px;
+            }
+            >h5:nth-child(3){
+                color: $tetiary-colour-gray;
+                font-size: $font-size-16px;
+                width: 70%;
+                margin: 0 auto;
+               
+            }
+            >button{
+                text-transform: capitalize;
+                background-color: $secondary-colour-green;
+                color: white;
+                margin-top: 23px;
+
+            }
+
+        }
+    }
+    .servicesSection2{
+        >div:first-child{
+            padding:0 10px ;
+            .miniNav{
+                text-align: center;
+            } 
+           
+        }
+        >:last-child{
+            margin-top: 23px;
+            background-color: $tetiary-colour-green;
+            >div:first-child{
+                >h2{
+                    padding-top: 20px;
+                    color: $primary-colour-blue;
+                    font-weight: 600;
+                    font-size: $font-size-24px;
+                }
+                >h5{
+                    color: $tetiary-colour-gray;
+                }
+            }
+            .card3{
+                margin-top: 51px;
+                >div{
+                    width: 80%;
+                    margin: 0 auto;
+                    padding: 20px;
+                   
+
+                    >div:first-child{
+                        background-color: $primary-colour-blue;
+                        padding: 5px;
+                        width: fit-content;
+                        border-radius: 50%;
+                        margin: 0 auto;
+                    }
+                    >h3{
+                        font-size: $font-size-20px;
+                        color: $primary-colour-blue;
+                        font-weight: 600;
+                        margin-top: 15px;
+                    }
+                    >p{
+                       color: $tetiary-colour-gray;
+                       font-size: $font-size-18px; 
+                    }
+                }
+            }
+        } 
+    }
+}
+
+// services styles for above 1200px
+@media screen and (min-width:1200px) {
+    .services{
+        .servicesSection1{
+            
+            >img{
+                scale: 1;
+            }
+            // >img:nth-child(1){
+                
+            // }
+            >img:nth-child(2){
+                top: 44%;
+                left: 15%;
+            }
+            >img:nth-child(3){
+                top: 10%;
+                right: 5%;
+            }
+            >img:nth-child(4){
+                bottom: 10%;
+                left: 5%;
+            }
+            >img:nth-child(5){
+                top: 45%;
+                left:75%;
+            }
+            >img:nth-child(6){
+                bottom: 10%;
+                right: 5%;
+            }
+            >div{
+                >h5:first-child{
+                    font-size: $font-size-16px;
+                }
+                >h4{
+                    margin-top: 20px;
+                    font-size: 40px;
+                }
+                >h5:nth-child(3){
+                    font-size: $font-size-18px;
+                        width: 385px;
+                }
+                >button{
+                    width: 171px;
+                    height: 48px;
+                    font-size: $font-size-16px;
+                }
+            }
+        }
+        .servicesSection2{
+            >div:last-child{
+                padding: 0 120px;
+                >div:first-child{
+                    padding-top: 39px;
+                    >h2{
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                    >h5{
+                        font-size: $font-size-18px;
+                    }
+                }
+                .card3{
+                    margin-top: 102px;
+                    
+                    >div:first-child{
+                        margin-left: 0;
+                    }
+                    >div{
+                        margin: 0;
+                        padding: 0 auto;
+                        margin-left:5%;
+                        width: 30%;
+                        display: inline-flex;
+                        >div:first-child{
+                            padding: 23px;
+                        }
+                        >h3{
+                            font-size: $font-size-16px;
+                            font-weight: 600;
+                            margin-top: 15px;
+                        }
+                        >p{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

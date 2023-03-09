@@ -364,54 +364,6 @@
   margin-top: 30px;
 }
 
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > :first-child {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 0 3px;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > :first-child > div {
-  cursor: pointer;
-  color: #255B7D;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > :first-child > div > h6 {
-  font-weight: 500;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child {
-  width: 100%;
-  background-color: #eeeeee;
-  height: 5px;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child > div {
-  width: 25%;
-  height: 4px;
-  margin: auto 0;
-  background-color: #255B7D;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider1 {
-  margin-left: 0;
-  -webkit-transition: all ease-in 0.5s;
-  transition: all ease-in 0.5s;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider2 {
-  margin-left: 43%;
-  width: 23%;
-  -webkit-transition: all ease-out 0.5s;
-  transition: all ease-out 0.5s;
-}
-
-.Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider3 {
-  margin-left: 83%;
-  width: 17%;
-  -webkit-transition: all ease-out 0.5s;
-  transition: all ease-out 0.5s;
-}
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 {
   background: #FAFAFA;
   border-radius: 5px;
@@ -815,35 +767,6 @@
   .Home .HomeSection5 > div:first-child > div:last-child > div:last-child {
     border-radius: 50px;
     width: 50%;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:first-child {
-    margin-bottom: 21px;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:first-child > div {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:first-child > div > img {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:first-child > div h6 {
-    font-size: 1.125rem;
-    margin-left: 12px;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider1 {
-    margin-left: 0;
-    width: 15%;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider2 {
-    margin-left: 44%;
-    width: 15%;
-  }
-  .Home .HomeSection5 > div:last-child > div:first-child > div:first-child > div:last-child .toggleSlider3 {
-    margin-left: 90%;
-    width: 10%;
   }
   .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 {
     height: 416px;
