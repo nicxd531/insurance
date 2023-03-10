@@ -83,7 +83,7 @@
                     padding-top: 20px;
                     color: $primary-colour-blue;
                     font-weight: 600;
-                    font-size: $font-size-24px;
+                    font-size: $font-size-20px;
                 }
                 >h5{
                     color: $tetiary-colour-gray;
@@ -117,6 +117,56 @@
                 }
             }
         } 
+    }
+    .servicesSection3{
+        margin-top:69px ;
+        background-color: $tetiary-colour-blue;
+        >h3{
+            font-size: $font-size-20px;
+            color: $primary-colour-blue;
+            font-weight: 600;
+            padding-top: 22px;
+        }
+        >h5{
+            font-size: $font-size-16px;
+            color: $tetiary-colour-gray;
+        }
+        .card5{
+            margin-top: 33px;
+            >div{
+                background-color: $primary-colour-blue;
+                border-radius: 50%;
+                width: fit-content;
+                margin: 0 auto;
+                >img{
+                    scale: 0.5;
+                    width: 54px;
+                    height: 54px;
+                }
+            }
+            >h3{
+                font-size: $font-size-16px;
+                color: $primary-colour-blue;
+                font-weight: 600;
+                width: 40%;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+            >p{
+                font-size: $font-size-14px;
+                color: $tetiary-colour-gray;
+                font-weight: 500;
+                width: 70%;
+                margin: 0 auto;
+                margin-top: 8px;
+            }
+        }
+        >button{
+            margin-top: 34px;
+            background-color: $secondary-colour-green;
+            color: white;
+            margin-bottom: 21px;
+        }
     }
 }
 

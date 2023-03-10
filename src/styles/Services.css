@@ -86,7 +86,7 @@
   padding-top: 20px;
   color: #255B7D;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .services .servicesSection2 > :last-child > div:first-child > h5 {
@@ -123,6 +123,67 @@
 .services .servicesSection2 > :last-child .card3 > div > p {
   color: #868686;
   font-size: 1.125rem;
+}
+
+.services .servicesSection3 {
+  margin-top: 69px;
+  background-color: rgba(124, 198, 254, 0.2);
+}
+
+.services .servicesSection3 > h3 {
+  font-size: 1.25rem;
+  color: #255B7D;
+  font-weight: 600;
+  padding-top: 22px;
+}
+
+.services .servicesSection3 > h5 {
+  font-size: 1rem;
+  color: #868686;
+}
+
+.services .servicesSection3 .card5 {
+  margin-top: 33px;
+}
+
+.services .servicesSection3 .card5 > div {
+  background-color: #255B7D;
+  border-radius: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.services .servicesSection3 .card5 > div > img {
+  scale: 0.5;
+  width: 54px;
+  height: 54px;
+}
+
+.services .servicesSection3 .card5 > h3 {
+  font-size: 1rem;
+  color: #255B7D;
+  font-weight: 600;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.services .servicesSection3 .card5 > p {
+  font-size: 0.875rem;
+  color: #868686;
+  font-weight: 500;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.services .servicesSection3 > button {
+  margin-top: 34px;
+  background-color: #3CBF54;
+  color: white;
+  margin-bottom: 21px;
 }
 
 @media screen and (min-width: 1200px) {

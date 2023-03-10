@@ -2,6 +2,7 @@
   scroll-behavior: smooth;
   margin: 0 10px;
   margin-top: 120px;
+  font-weight: 500;
 }
 
 .Home .HomeSection1 div:first-child {
@@ -539,7 +540,7 @@
 @media screen and (min-width: 1200px) {
   .Home {
     margin: 0;
-    margin-top: 180px;
+    margin-top: 140px;
   }
   .Home .HomeSection1 {
     max-width: 1100px;

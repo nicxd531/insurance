@@ -101,6 +101,7 @@
     color: #255B7D;
     text-decoration: none;
     position: relative;
+    font-weight: 500;
   }
   .navBar .navarBs .strokes::after {
     position: absolute;

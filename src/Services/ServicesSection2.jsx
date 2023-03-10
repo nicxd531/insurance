@@ -1,11 +1,14 @@
 import MiniNav from "../components/MiniNav";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 const ServicesSetion2 = () => {
 
-    // use state hook to toggle the category of plans 
+    // use state hook to toggle the category of plans and also to change name  
     const [toggleSlider, setToggleslider] = useState(1)
-
+    const [category, setCategory] = useState("")
+    
+    
+    
     // data for cards 
     const card3 =[
         {
@@ -29,7 +32,7 @@ const ServicesSetion2 = () => {
     const card3Map =<div className="card3">
                         {card3.map((data,index)=>{
                             return(
-                                <div key={index} className="d-sm-flex d-xl-inline-flex flex-column align-items-center text-center">
+                                <div data-aos="zoom-in" key={index} className="d-sm-flex d-xl-inline-flex flex-column align-items-center text-center">
                                     <div>
                                         <img src={data.image} alt="icon" />
                                     </div>
@@ -40,6 +43,16 @@ const ServicesSetion2 = () => {
                         })}
                     </div>
 
+        // use effect for name switch
+        useEffect(() => {
+            
+            console.log(category)
+            toggleSlider=== 1 && setCategory("automobile's") 
+            toggleSlider=== 2 && setCategory("health/Life") 
+            toggleSlider=== 3 && setCategory("device's") 
+        }, [toggleSlider])
+        
+
     return ( 
         <section className="servicesSection2">
             <div>
@@ -47,7 +60,7 @@ const ServicesSetion2 = () => {
             </div>
             <div>
                 <div className="text-center">
-                    <h2>Insurance that keeps your vehicle safe</h2>
+                    <h2>Insurance that keeps your {category} safe</h2>
                     <h5>Get covered in 90 seconds, no stress.</h5>
                 </div>
                 {/* imported map  */}
