@@ -39,8 +39,8 @@ const ServicesSection3 = () => {
         return(
             <div 
             data-aos="zoom-in-up"
-            className="card5 text-center" key={index}>
-                <div>
+            className="card5 text-center " key={index}>
+                <div className=" d-xl-flex align-items-center justify-content-center">
                 <img src={data.image} alt="icon" />
                 </div>
                 <h3>{data.title}</h3>
@@ -52,7 +52,10 @@ const ServicesSection3 = () => {
         <section className="servicesSection3 text-center">
             <h3>What’s covered</h3>
             <h5>Insure your car and see what it gets you</h5>
-           {dataCard}
+            <div >
+                {dataCard}
+            </div>
+           
            <button data-aos="zoom-in-up" className="btn">Check our prices</button>
         </section>
      );

@@ -168,6 +168,46 @@
             margin-bottom: 21px;
         }
     }
+    .servicesSection4{
+        >h3{
+            font-size: $font-size-20px;
+            color: $primary-colour-blue;
+            font-weight: 700;
+            margin-top: 69px;
+        }
+        >h5{
+            font-size: $font-size-16px;
+            color: $tetiary-colour-gray;
+            margin-top: 7px;
+        }
+        >div{
+            margin-top: 38px;
+            .card6{
+                width: 60%;
+                margin: 0 auto;
+                background-color: #F5F5F5;
+                border-radius: 5px;
+                padding: 20px;
+                margin-top: 20px;
+                filter: drop-shadow(0px 16px 40px rgba(0, 0, 0, 0.2));
+                >h3{
+                    color: $primary-colour-blue;
+                    font-size: $font-size-18px;
+                    font-weight: 600px;
+                    margin-top: 22px;
+                }
+                >p{
+                    color: $tetiary-colour-gray;
+                    font-size: $font-size-14px;
+                    margin-top: 20px;
+                }
+               
+            }
+            >.arrowServices{
+                visibility: hidden;
+            }
+        }
+    }
 }
 
 // services styles for above 1200px
@@ -260,6 +300,109 @@
                             margin-top: 20px;
                         }
                     }
+                }
+            }
+        }
+        .servicesSection3{
+            padding: 0 163px;
+            >h3{
+                font-size: $font-size-24px;
+                padding-top: 43px;
+            }
+            >h5{
+                font-size: $font-size-18px;
+                margin-top: 14px;
+                font-weight: 500;
+            }
+            >div{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .card5:first-child,
+                .card5:nth-child(4){
+                    margin-left: 0;
+                }    
+                .card5{
+                    width: 30%;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                    margin-left: 5%;
+                    >div{
+                        width: 114px;
+                        height: 114px;
+                        
+                        >img{
+                            scale: 1;
+                            width: 69px;
+                            height: 69px;
+                        }
+                    }
+                    >h3{
+                        font-size: $font-size-18px;
+                        font-weight: 600;
+                        margin-top: 20px;
+                    }
+                    >h5{
+                        margin-top: 8px;
+                        font-size: $font-size-16px;
+                    }
+
+                }
+            }
+            >button{
+                width: 224px;
+                height: 48px;
+                font-size: $font-size-16px;
+                font-weight: 700;
+            }
+        }
+        .servicesSection4{
+            position: relative;
+            >h3{
+                font-size: $font-size-24px;
+                font-weight: 700;
+            }
+            >h5{
+                font-size: $font-size-18px;
+            }
+            >div{
+                padding: 0 272px;
+                margin-top: 113px;
+                margin-bottom: 139px;
+                
+                .card6{
+                    >h3{
+                        font-size: $font-size-16px;
+                        font-weight: 500;
+                    }
+                    >h5{
+                        font-size: 13px;
+                    }
+                }
+                >.scaleOut{
+                    scale: 1.2;
+                    z-index: 1;
+                    transition: all ease-out 0.3s;
+                }
+                >.scaleIn{
+                    scale: 1;
+                    filter: none;
+                    background-color: #F5F5F5;
+                    transition: all ease-in 0.3s;
+                    
+                }
+                >.arrowServices{
+                    color: #255B7D;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 70%;
+                    visibility: visible;
+                }
+                >.arr1{
+                    left: 15%;
+                }
+                >.arr2{
+                    right: 15%;
                 }
             }
         }

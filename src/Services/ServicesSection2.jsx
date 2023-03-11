@@ -26,7 +26,7 @@ const ServicesSetion2 = () => {
             title:"Instant",
             description:"Insurance industry begins the move to a customer centric model We Increase the use of AI throughout the process end-to-end Use an omnichannel approach to interact with customers"
         }
-    ]
+    ];
 
     // map for card3Map through card3
     const card3Map =<div className="card3">
@@ -45,8 +45,6 @@ const ServicesSetion2 = () => {
 
         // use effect for name switch
         useEffect(() => {
-            
-            console.log(category)
             toggleSlider=== 1 && setCategory("automobile's") 
             toggleSlider=== 2 && setCategory("health/Life") 
             toggleSlider=== 3 && setCategory("device's") 

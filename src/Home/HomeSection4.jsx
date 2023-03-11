@@ -52,7 +52,7 @@ const HomeSection4 = () => {
     // map for the card imported into the return to keep the code less
     const cards = data.map((data ,index)=>{
         return(
-            <div onMouseOver={()=>setcurrentSlide(index)} key={index} className="d-flex flex-column align-items-center">
+            <div data-aos="zoom-in" onMouseOver={()=>setcurrentSlide(index)} key={index} className="d-flex flex-column align-items-center">
                 <hr/>
                 <img src={data.image} alt="card icon"/>
                 <h3>{data.title}</h3>
