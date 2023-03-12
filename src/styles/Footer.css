@@ -46,6 +46,11 @@
   cursor: pointer;
 }
 
+.footer > div:nth-child(2) > div:first-child > div > h5 > a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer > div:nth-child(2) > div:first-child > div > h5:hover {
   text-decoration: underline;
 }

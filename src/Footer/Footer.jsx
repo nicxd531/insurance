@@ -12,12 +12,12 @@ const Footer = () => {
                 <div className="d-sm-flex">
                     <div className="flex-fill">
                         <h3>Sitemap</h3>
-                        <h5><a>Home</a></h5>
-                        <h5><a>Services</a></h5>
-                        <h5><a>About Us</a></h5>
-                        <h5><a>Blog</a></h5>
-                        <h5><a>Contact Us</a></h5>
-                        <h5><a>Our partners</a></h5>
+                        <h5><a href="/">Home</a></h5>
+                        <h5><a href="/services">Services</a></h5>
+                        <h5><a href="/aboutUs">About Us</a></h5>
+                        <h5><a href="/blog">Blog</a></h5>
+                        <h5><a href="/contactUs">Contact Us</a></h5>
+                        <h5><a href="/Partners">Our partners</a></h5>
                     </div>
                     <div className="flex-fill">
                         <h3>Help & Support</h3>
