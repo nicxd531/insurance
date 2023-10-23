@@ -22,4 +22,4 @@ const NavBarSs = () => {
     );
 }
  
-export default NavBarSs;``
+export default NavBarSs;
