@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "Main.scss",
-        "_variables.scss"
-    ],
-    "names": [],
-    "file": "Main.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"Main.css"}

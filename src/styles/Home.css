@@ -4,15 +4,12 @@
   margin-top: 120px;
   font-weight: 500;
 }
-
 .Home .HomeSection1 div:first-child {
   margin-top: 80px;
 }
-
 .Home .HomeSection1 div:first-child > h6:first-child {
   font-size: 0.75rem;
 }
-
 .Home .HomeSection1 div:first-child > h2 {
   color: #255B7D;
   font-size: 1.25rem;
@@ -20,108 +17,87 @@
   margin-top: 15px;
   margin-bottom: 0;
 }
-
 .Home .HomeSection1 div:first-child > h6:nth-child(3) {
   font-size: 0.875rem;
   color: #868686;
   margin-top: 10px;
 }
-
 .Home .HomeSection1 div:first-child .homeBtn {
   margin-top: 25px;
 }
-
 .Home .HomeSection1 div:first-child .homeBtn button {
   font-size: 0.75rem;
 }
-
 .Home .HomeSection1 div:first-child .homeBtn button:first-child {
   background-color: #3CBF54;
 }
-
 .Home .HomeSection1 div:first-child .homeBtn button:last-child {
   border: 1px solid #3CBF54;
   margin-left: 16px;
 }
-
 .Home .HomeSection1 div:first-child > div:last-child {
   margin-top: 20px;
 }
-
 .Home .HomeSection1 div:first-child > div:last-child > div img {
   width: 40px;
   margin-left: 15px;
 }
-
 .Home .HomeSection1 > div:last-child {
   width: 100%;
   padding: 0 40px;
 }
-
 .Home .HomeSection1 > div:last-child img {
   width: 100%;
 }
-
 .Home .homeSection2 > div:first-child {
   margin-top: 40px;
 }
-
 .Home .homeSection2 > div:first-child > h6 {
   font-size: 0.875rem;
   color: #868686;
 }
-
 .Home .homeSection2 > div:first-child > h3 {
   font-size: 1rem;
   color: #255B7D;
   font-weight: 600;
 }
-
 .Home .homeSection2 > div:first-child > h4 {
   font-size: 0.875rem;
   color: #868686;
 }
-
 .Home .homeSection2 > div:last-child div {
   padding: 40px 20px;
   width: 70%;
   margin: 25px auto;
   background-color: #FAFAFA;
   border-bottom: 3px solid #255B7D;
-  -webkit-box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
-          box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
 }
-
 .Home .homeSection2 > div:last-child div img {
   width: 60px;
   margin: 10px;
 }
-
 .Home .homeSection2 > div:last-child div > h3 {
   font-size: 0.875rem;
   color: #255B7D;
   margin: 10px 0;
   font-weight: 600;
 }
-
 .Home .homeSection2 > div:last-child div > h5 {
   font-size: 0.75rem;
   margin: 10px;
   color: #868686;
   text-align: center;
 }
-
 .Home .HomeSection3 > div:first-child {
   position: relative;
   margin-top: 50px;
 }
-
 .Home .HomeSection3 > div:first-child > img:first-child {
   width: 60%;
   margin: 0 auto;
   z-index: 0;
 }
-
 .Home .HomeSection3 > div:first-child > img:last-child {
   position: absolute;
   left: 0;
@@ -129,178 +105,137 @@
   top: 1%;
   z-index: 0;
 }
-
 .Home .HomeSection3 > div:last-child {
   margin-top: 145px;
   text-align: center;
   padding: 30px;
 }
-
 .Home .HomeSection3 > div:last-child > h6 {
   font-size: 0.75rem;
   color: #000000;
 }
-
 .Home .HomeSection3 > div:last-child > h4 {
   font-size: 1.125rem;
   color: #255B7D;
 }
-
 .Home .HomeSection3 > div:last-child > h5 {
   font-size: 0.875rem;
   text-align: justify;
   color: #868686;
 }
-
 .Home .HomeSection3 > div:last-child > div {
   margin-top: 15px;
 }
-
 .Home .HomeSection3 > div:last-child > div > button {
   background-color: #3CBF54;
   color: #eeeeee;
 }
-
 .Home .imageSwapIn {
   opacity: 1;
   scale: 1;
-  -webkit-transition: 0.5s all ease-in;
   transition: 0.5s all ease-in;
 }
-
 .Home .imageSwapOut {
   opacity: 0.2;
   scale: 0.9;
-  -webkit-transition: 0.5s all ease-out;
   transition: 0.5s all ease-out;
   visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
 }
-
 .Home .HomeSection4 > div:first-child {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-bottom: 60px;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child {
   width: 100%;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div:hover {
   scale: 1.1;
-  -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
   cursor: pointer;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div {
   width: 30%;
   border-bottom: 3px solid #3CBF54;
   margin-left: 5%;
-  -webkit-box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
-          box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div img {
   width: 40px;
   margin-top: 13px;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div h3 {
   font-size: 1rem;
   margin-top: 6px;
   color: #3CBF54;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div:first-child {
   margin-left: 0;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(2),
 .Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(3) {
   border-bottom: 3px solid #255B7D;
 }
-
 .Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(2) > h3,
 .Home .HomeSection4 > div:first-child > div:first-child > div:nth-child(3) > h3 {
   color: #255B7D;
 }
-
 .Home .HomeSection4 > div:first-child > div:last-child {
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   margin-top: 60px;
   position: relative;
 }
-
 .Home .HomeSection4 > div:first-child > div:last-child img {
   width: 100%;
   border-radius: 50px;
 }
-
 .Home .HomeSection4 > div:last-child {
   margin-top: 60px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .Home .HomeSection4 > div:last-child > h5 {
   font-size: 0.875rem;
 }
-
 .Home .HomeSection4 > div:last-child > h3 {
   font-size: 1.25rem;
   color: #255B7D;
   font-weight: 600;
 }
-
 .Home .HomeSection4 > div:last-child > p {
   color: #868686;
   font-size: 0.875rem;
   text-align: justify;
 }
-
 .Home .HomeSection4 > div:last-child > div {
   width: 100%;
   margin-top: 15px;
 }
-
 .Home .HomeSection4 > div:last-child > div button {
   background-color: #3CBF54;
 }
-
 .Home .HomeSection5 {
   margin-top: 71px;
 }
-
 .Home .HomeSection5 > div:first-child {
   text-align: center;
 }
-
 .Home .HomeSection5 > div:first-child > h6 {
   font-size: 0.875rem;
 }
-
 .Home .HomeSection5 > div:first-child > h3 {
   font-size: 1.125rem;
   color: #255B7D;
   font-weight: 600;
 }
-
 .Home .HomeSection5 > div:first-child > h4 {
   font-size: 1.125rem;
   color: #868686;
   margin: 0 auto;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) {
   width: 200px;
   height: 50px;
@@ -308,15 +243,11 @@
   margin: 0 auto;
   margin-top: 12px;
   border-radius: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   box-sizing: border-box;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) > h5 {
   width: 50%;
   text-align: center;
@@ -327,7 +258,6 @@
   font-size: 0.875rem;
   cursor: pointer;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) > div {
   border-radius: 25px;
   width: 50%;
@@ -336,74 +266,51 @@
   top: 2.5px;
   height: 90%;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) .toggleBtn1 {
   color: white;
-  -webkit-transition: 0.5s all ease-out;
   transition: 0.5s all ease-out;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) .toggleBtn2 {
   color: #255B7D;
-  -webkit-transition: 0.5s all ease-out;
   transition: 0.5s all ease-out;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) .toggleBtnMove1 {
   margin-left: 2px;
-  -webkit-transition: 0.5s all ease-in;
   transition: 0.5s all ease-in;
 }
-
 .Home .HomeSection5 > div:first-child > div:nth-child(4) .toggleBtnMove2 {
   margin-left: 48%;
-  -webkit-transition: 0.5s all ease-out;
   transition: 0.5s all ease-out;
 }
-
 .Home .HomeSection5 > div:last-child {
   margin-top: 30px;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 {
   background: #FAFAFA;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
-          box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+  box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
   padding: 30px 8px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   width: 340px;
   margin: 0 auto;
   margin-top: 21.5px;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > h5:first-child {
   font-weight: 600;
   font-size: 1.125rem;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > h4 {
   font-weight: 700;
   font-size: 1.25rem;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > h5:nth-child(3) {
   text-transform: capitalize;
   color: #868686;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > button {
   background-color: #3CBF54;
   width: 141px;
@@ -412,50 +319,39 @@
   color: #eeeeee;
   font-size: 1rem;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > div {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 13px;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > div > h5 {
   font-size: 1rem;
   margin-left: 14px;
   color: #868686;
 }
-
 .Home .HomeSection5 > div:last-child > div:first-child > div:last-child .card4 > div > img {
   -o-object-fit: contain;
      object-fit: contain;
 }
-
 .Home .HomeSection6 > div:first-child {
   margin-top: 70px;
 }
-
 .Home .HomeSection6 > div:first-child > h6 {
   font-size: 1rem;
   color: #000000;
 }
-
 .Home .HomeSection6 > div:first-child > h4 {
   font-size: 1.125rem;
   color: #255B7D;
 }
-
 .Home .HomeSection6 > div:first-child > h5 {
   font-size: 0.875rem;
   color: #868686;
 }
-
 .Home .HomeSection6 > div:last-child .card2 {
   margin-top: 55px;
   border-bottom: 2px solid #255B7D;
   margin-bottom: 2px;
 }
-
 .Home .HomeSection6 > div:last-child .card2 > div:first-child {
   background-color: #255B7D;
   border-radius: 50%;
@@ -465,73 +361,60 @@
   margin-top: 14px;
   color: white;
 }
-
 .Home .HomeSection6 > div:last-child .card2 > h5 {
   color: #255B7D;
   margin-top: 14px;
 }
-
 .Home .HomeSection6 > div:last-child .card2 > p {
   text-align: justify;
   margin-top: 14px;
   color: #868686;
 }
-
 .Home .HomeSection7 > div:first-child {
   background-color: #E5EBEF;
   margin-top: 77px;
   padding: 20px;
 }
-
 .Home .HomeSection7 > div:first-child > div:first-child > h6:first-child {
   font-size: 0.875rem;
 }
-
 .Home .HomeSection7 > div:first-child > div:first-child > h4 {
   color: #255B7D;
   font-size: 1.25rem;
 }
-
 .Home .HomeSection7 > div:first-child > div:first-child > h6:last-child {
   color: #868686;
   font-size: 1rem;
 }
-
 .Home .HomeSection7 > div:first-child > form {
   width: 100%;
   background: rgba(217, 217, 217, 0.3);
   border: 0.33px solid rgba(134, 134, 134, 0.3);
   border-radius: 5px;
 }
-
 .Home .HomeSection7 > div:first-child > form > input {
   border: none;
   background: transparent;
   padding-left: 10px;
   outline: none;
 }
-
 .Home .HomeSection7 > div:first-child > form > button {
   background-color: #3CBF54;
   border-radius: 5px;
   color: #eeeeee;
 }
-
 .Home .HomeSection7 > div:last-child {
   margin-left: 60px;
   margin-top: 10px;
 }
-
 .Home .HomeSection7 > div:last-child > h4 {
   background-color: #FAFAFA;
   font-size: 1rem;
   color: #255B7D;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   display: inline-block;
 }
-
 .Home .HomeSection7 > div:last-child > img {
   width: 50px;
   margin-left: 20px;
@@ -611,11 +494,9 @@
   }
   .Home .homeSection2 div:last-child > div {
     width: 355px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     height: 341px;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
     margin-left: 10px;
   }
   .Home .homeSection2 div:last-child > div > img {
@@ -629,11 +510,9 @@
   }
   .Home .homeSection2 div:last-child > div:hover {
     scale: 1.05;
-    -webkit-transition: all ease-out 0.3s;
     transition: all ease-out 0.3s;
     cursor: pointer;
-    -webkit-box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
-            box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
+    box-shadow: 0px 16px 40px rgba(112, 144, 176, 0.2);
   }
   .Home .HomeSection3 {
     max-width: 1100px;
@@ -685,12 +564,8 @@
   }
   .Home .HomeSection4 > div:first-child > div:first-child > div {
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     width: 100%;
     height: 30%;
     margin: 0;
@@ -793,8 +668,6 @@
     font-size: 1.125rem;
   }
   .Home .HomeSection6 > div:last-child {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .Home .HomeSection6 > div:last-child .card2 {
@@ -838,15 +711,12 @@
     margin-top: 0;
   }
   .Home .HomeSection7 {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .Home .HomeSection7 > div:first-child {
     padding: 40px 163px;
   }
   .Home .HomeSection7 > div:first-child > div {
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     margin-right: 50px;
@@ -868,5 +738,4 @@
   .Home .HomeSection7 > div:last-child > img {
     display: block;
   }
-}
-/*# sourceMappingURL=Home.css.map */
+}/*# sourceMappingURL=Home.css.map */
