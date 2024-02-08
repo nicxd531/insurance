@@ -47,7 +47,7 @@
   grid-column: 1/span 10;
 }
 .navBar .navBarSs .menuOpen {
-  height: 185px;
+  height: 200px;
   transition: all 0.3s ease-out;
 }
 .navBar .navBarSs .menuClose {

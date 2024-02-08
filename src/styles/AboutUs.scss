@@ -1,0 +1,17 @@
+.imageSwapIn{
+    opacity: 1;
+    scale: 1;
+    transition: 0.5s all ease-in;
+}
+.imageSwapOut{
+    opacity: 0.2;
+    scale: 0.9;
+    transition: 0.5s all ease-out;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+    
+}

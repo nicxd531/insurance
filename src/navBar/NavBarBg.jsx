@@ -12,7 +12,6 @@ const NavBarBg = () => {
                 <NavLink  to="/" >
                     <img src="/images/company logo.png" alt="Bas Insurance Logo"/>
                 </NavLink >
-                
             </div> 
             <NavLink  to="/blog" className="strokes">Blog</NavLink >
             <NavLink  to="/contactUs" className="strokes">Contact us</NavLink >

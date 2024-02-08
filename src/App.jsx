@@ -13,9 +13,18 @@ import Footer from './Footer/Footer';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import { ThemeProvider } from '@emotion/react';
+import { createTheme } from '@mui/material';
 
 
 function App() {
+  const theme = createTheme({
+    palette:{
+        primary:{
+            main:"#255B7D"
+        }
+    }
+})
 
   // calling aos on refresh
   useEffect(()=>{
@@ -27,18 +36,20 @@ function App() {
   })
   return (
     <div className="App">
-      <Router>
-        <NavBar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/services' element={<Services/>}/>
-          <Route path='/aboutUs' element={<AboutUs/>}/>
-          <Route path='/blog' element ={<Blog/>}/>
-          <Route path='/contactUs' element={<ContactUs/>}/>
-          <Route path='/Partners' element={<OurPartners/>}/>
-        </Routes>
-        <Footer/>
-      </Router>
+      <ThemeProvider theme={theme}>
+        <Router>
+          <NavBar/>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+            <Route path='/services' element={<Services/>}/>
+            <Route path='/aboutUs' element={<AboutUs/>}/>
+            <Route path='/blog' element ={<Blog/>}/>
+            <Route path='/contactUs' element={<ContactUs/>}/>
+            <Route path='/Partners' element={<OurPartners/>}/>
+          </Routes>
+          <Footer/>
+        </Router>
+      </ThemeProvider>
     </div>
   )
 }
