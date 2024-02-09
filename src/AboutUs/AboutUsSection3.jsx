@@ -11,7 +11,7 @@ function AboutUsSection3() {
          The mission of the insurance company is to provide superior customer service and quality insurance coverage to their clients. They strive to be a leader in the insurance industry by providing innovative products and services that meet the needs of their customers. They strive to build strong relationships with their clients and to act in their best interests. Their goal is to be the go-to provider of quality insurance coverage and protection that is tailored to each customer's unique needs. They are committed to providing a secure financial future for their customers and their families.
         </Typography>
     </Box>
-    <Box sx={{width:{xs:"100%",lg:"45%"},mt:3,order:{xs:-1,lg:0}}}>
+    <Box data-aos="zoom-in" sx={{width:{xs:"100%",lg:"45%"},mt:3,order:{xs:-1,lg:0}}}>
       <img  style={{width:"100%",margin:"auto"}} src="/images/as3.png"/>
     </Box>
 </Box>

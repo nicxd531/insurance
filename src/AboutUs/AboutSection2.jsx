@@ -5,7 +5,7 @@ function AboutSection2() {
   // about section 2 component
   return (
     <Box sx={{px:{lg:"103px"},pt:{lg:1},justifyContent:"space-between",flexDirection:{xs:"column",lg:"row"},fontSize:{lg:"16px"},mt:{xs:2,lg:0}} } className="d-flex justify-spacebetween">
-        <Box sx={{width:{xs:"100%",lg:"45%"},mt:3}}>
+        <Box data-aos="zoom-in" sx={{width:{xs:"100%",lg:"45%"},mt:3}}>
             <img style={{width:"100%",margin:"auto"}} src="/images/aS2.png"/>
         </Box>
         <Box className="d-flex justify-content-center align-items-start" sx={{flexDirection:"column",width:{xs:"100%",lg:"45%"},ml:{lg:14},mt:{xs:2,lg:4}}}>

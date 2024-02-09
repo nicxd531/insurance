@@ -12,7 +12,7 @@ function AboutUsSection1() {
                 At first, the company offered simple life insurance. But as the years passed, their services expanded to include health insurance, auto insurance, and more. Over time, the company gained recognition as a reliable provider of quality service and became one of the leading insurance companies in the country.
             </Typography>
         </Box>
-        <Box sx={{width:{xs:"100%",lg:"45%"},mt:3,order:{xs:-1,lg:0}}}>
+        <Box data-aos="zoom-in" sx={{width:{xs:"100%",lg:"45%"},mt:3,order:{xs:-1,lg:0}}}>
           <img  style={{width:"100%",margin:"auto"}} src="/images/Group 596.png"/>
         </Box>
     </Box>

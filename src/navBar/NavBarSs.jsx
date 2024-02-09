@@ -13,18 +13,18 @@ const NavBarSs = () => {
             <img src="/images/company logo.png" alt="Bas Insurance Logo"/>
             <Hamburger toggled={isOpen} toggle={setOpen}/>
             <div className={`menu z-1 ${isOpen?"menuOpen" : "menuClose"}`}>
-                <Box sx={{mt:6,flexDirection:"column",width:"100%"}} className="d-flex">
-                    <IconButton sx={{mx:0,width:"100%"}}> <Link href="/" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}>Home</Link></IconButton>
+                <Box sx={{mt:6,flexDirection:"column",width:"100%"}} className="d-flex justify-content-center align-items-center">
+                    <Link href="/" style={{color:"black",textDecoration:"none",fontWeight:"bold",width:"100%",borderRadius:"0"}}> <IconButton sx={{mx:0,width:"100%"}}> Home</IconButton></Link>
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <IconButton sx={{mx:0}}><Link href="/services" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}>Services</Link></IconButton>
+                    <Link href="/services" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}><IconButton href="/services" sx={{mx:0}}>Services</IconButton></Link>
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <IconButton sx={{mx:0}}><Link href="/aboutUs" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}>About us</Link></IconButton>
+                   <Link href="/aboutUs" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}> <IconButton sx={{mx:0}}>About us</IconButton></Link>
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <IconButton sx={{mx:0}}><Link href="/blog" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}>Blog</Link></IconButton>
+                    <Link href="/blog" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}><IconButton sx={{mx:0}}>Blog</IconButton></Link>
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <IconButton sx={{mx:0}}><Link href="/contactUs" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}>Contact us</Link></IconButton>
+                   <Link href="/contactUs" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}> <IconButton sx={{mx:0}}>Contact us</IconButton></Link>
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <IconButton sx={{mx:0}}><Link href="/Partners" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}>partners</Link></IconButton>
+                   <Link href="/Partners" style={{color:"black",textDecoration:"none",fontWeight:"bold"}}> <IconButton sx={{mx:0}}>partners</IconButton></Link>
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
 
                 </Box>

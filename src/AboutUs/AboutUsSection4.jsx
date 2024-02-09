@@ -14,7 +14,7 @@ function AboutUsSection4() {
             <Typography color="primary.main" sx={{fontWeight:"bold",fontSize:{xs:"16px",lg:"24px"}}}>This is who we are</Typography>
             <Typography sx={{fontSize:{lg:'16px'}}} className='text-muted'>Meet the key players and trailblazers of the company</Typography>
         </Box>
-        <Box sx={{display:{xs:"none",lg:"grid"},gridTemplateColumns:"repeat(12, 1fr)",height:"1000px" ,gridTemplateRows:"repeat(12, 1fr)",rowGap:"20px",columnGap:"60px",width:"100%"}}>
+        <Box data-aos="zoom-in" sx={{display:{xs:"none",lg:"grid"},gridTemplateColumns:"repeat(12, 1fr)",height:"1000px" ,gridTemplateRows:"repeat(12, 1fr)",rowGap:"20px",columnGap:"60px",width:"100%"}}>
           <Box sx={{gridRow:{lg:"1/6"},gridColumn:{lg:"2/5"},objectFit:"cover",position:"relative"}}>
             <img src='/images/asi1.png' style={{width:"100%"}}/>
             <Box className="glass d-flex justify-content-center align-items-start" sx={{flexDirection:"column",position:"absolute",width:"200px",height:"120px",bottom:"20px",left:35,borderRadius:"5px"}}>
@@ -27,7 +27,7 @@ function AboutUsSection4() {
               </Box>
             </Box>
           </Box>
-          <Box className="d-flex" sx={{gridRow:{lg:"1/12"},gridColumn:{lg:"5/9"}}} >
+          <Box data-aos="zoom-in" className="d-flex" sx={{gridRow:{lg:"1/12"},gridColumn:{lg:"5/9"}}} >
             <Box sx={{height:"60%",width:"100%",my:"auto",position:"relative"}}>
               <img src='/images/asi2.png' style={{width:"100%"}}/>
               <Box className="glass d-flex justify-content-center align-items-start" sx={{flexDirection:"column",position:"absolute",width:"300px",height:"150px",bottom:"20px",left:40,borderRadius:"5px"}}>
@@ -42,7 +42,7 @@ function AboutUsSection4() {
               </Box>
             </Box>
           </Box>
-          <Box sx={{gridRow:{lg:"1/6"},gridColumn:{lg:"9/12"},position:"relative"}}>
+          <Box data-aos="zoom-in" sx={{gridRow:{lg:"1/6"},gridColumn:{lg:"9/12"},position:"relative"}}>
             <img src='/images/asi3.png' style={{width:"100%"}}/>
             <Box className="glass d-flex justify-content-center align-items-start" sx={{flexDirection:"column",position:"absolute",width:"200px",height:"120px",bottom:"20px",left:35,borderRadius:"5px"}}>
               <Typography sx={{ml:2,color:"#FFFFFF",fontSize:"18px"}}>Mia Warder</Typography>
@@ -54,7 +54,7 @@ function AboutUsSection4() {
               </Box>
             </Box>
           </Box>
-          <Box sx={{gridRow:{lg:"7/12"},gridColumn:{lg:"2/5"},position:"relative"}}>
+          <Box data-aos="zoom-in" sx={{gridRow:{lg:"7/12"},gridColumn:{lg:"2/5"},position:"relative"}}>
             <img src='/images/asi4.png'style={{width:"100%"}}/>
             <Box className="glass d-flex justify-content-center align-items-start" sx={{flexDirection:"column",position:"absolute",width:"200px",height:"120px",bottom:"20px",left:35,borderRadius:"5px"}}>
               <Typography sx={{ml:2,color:"#FFFFFF",fontSize:"18px"}}>Archie Young</Typography>
@@ -66,7 +66,7 @@ function AboutUsSection4() {
               </Box>
             </Box>
           </Box>
-          <Box sx={{gridRow:{lg:"7/12"},gridColumn:{lg:"9/12"},position:"relative"}}>
+          <Box data-aos="zoom-in" sx={{gridRow:{lg:"7/12"},gridColumn:{lg:"9/12"},position:"relative"}}>
             <img src='/images/asi5.png' style={{width:"100%"}}/>
             <Box className="glass d-flex justify-content-center align-items-start" sx={{flexDirection:"column",position:"absolute",width:"200px",height:"120px",bottom:"20px",left:35,borderRadius:"5px"}}>
               <Typography sx={{ml:2,color:"#FFFFFF",fontSize:"18px"}}>Annie Stanley</Typography>
