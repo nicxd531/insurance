@@ -161,6 +161,7 @@
             height: 4px;
             margin: auto 0;
             background-color: $primary-colour-blue;
+            border-radius: 5px;
             
         }
         .toggleSlider1{
@@ -174,6 +175,11 @@
         }
         .toggleSlider3{
             margin-left: 83%;
+            width: 17%;
+            transition: all ease-out 0.5s;
+        }
+        .toggleSlider23{
+            margin-left: 84%;
             width: 17%;
             transition: all ease-out 0.5s;
         }

@@ -3,7 +3,6 @@
 
 
 // note: each main section contains multiple sections in them with numbering according to their positions 
-
 // home styles for below 1200px
 .Home{
     scroll-behavior: smooth;
@@ -50,7 +49,6 @@
                    width: 40px;
                    margin-left: 15px;
                 }
-                
             }
         }
         }
@@ -77,12 +75,9 @@
             >h4{
                 font-size: $font-size-14px;
                 color: $tetiary-colour-gray;
-                
-               
             }
         }
         >div:last-child{
-            
             div{
                 padding:40px 20px;
                 width: 70%;
@@ -109,7 +104,6 @@
                 }
             }
         }
-
     }
     .HomeSection3{
         >div:first-child{
@@ -152,8 +146,7 @@
                     color: #eeeeee;
                 }
             }
-        }
-        
+        } 
     } .imageSwapIn{
         opacity: 1;
         scale: 1;
@@ -167,9 +160,6 @@
         position: absolute;
         top: 0;
         left: 0;
-        
-
-        
     }
     .HomeSection4{
         >div:first-child{
@@ -212,8 +202,6 @@
                         color: $primary-colour-blue;
                     }
                 }
-               
-
             }
             >div:last-child{
                 width: 100%;
