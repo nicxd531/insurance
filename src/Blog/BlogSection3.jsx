@@ -65,7 +65,7 @@ import React from 'react'
 function BlogSection3() {
     // main blog section 3 component
   return (
-    <Box sx={{mt:8,px:{xs:3},px:{xs:2,lg:"143px"}}}>
+    <Box sx={{mt:8,px:{xs:2,lg:"143px"}}}>
         <Box className="d-flex align-items-center justify-content-center" sx={{flexDirection:"column"}}>
             <Typography className='text-muted' sx={{fontSize:{lg:"18px"}}}>Learn by category</Typography>
             <Typography sx={{fontSize:{xs:"18px",lg:"24px"},fontWeight:"bold",mt:{lg:2}}} color="primary.main">Learn as you join our network</Typography>
