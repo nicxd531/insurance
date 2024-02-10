@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from '@mui/material'
 import React ,{useState}from 'react'
-import MiniNav2 from '../components/miniNav2'
+import MiniNav2 from '../components/MiniNav2'
 
 function OurPartners2() {
     // ourPartners2 Main component
