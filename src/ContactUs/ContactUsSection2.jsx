@@ -3,6 +3,7 @@ import React from 'react'
 
 
 function ContactUsSection2() {
+    // contactussection2 component
   return (
     <Box className="d-flex" sx={{backgroundColor:"#F2F2F2",width:{lg:"1100px",xs:"90%"},position:"absolute",top:{lg:440,xs:700},left:{xs:20,lg:100},}}>
         <Box sx={{width:{lg:"50%",xs:"100%"},p:"10px",display:{xs:"flex"},justifyContent:{xs:"center"},alignItems:{xs:"center"}}}>

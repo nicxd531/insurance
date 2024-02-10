@@ -5,6 +5,7 @@ import ContactUsSection2 from "./ContactUsSection2";
 import ContactUsSection3 from "./ContactUsSection3";
 
 const ContactUs = () => {
+    // contact main component
     return ( 
         <Box className="contactUs" sx={{position:"relative"}}>
             <ContactUsSection1/>

@@ -39,7 +39,7 @@ const data =[
 
 
 function ContactUsSection3() {
-    // const for holfing accordion 
+    // contact section3 component 
     
   return (
     <Box sx={{width:{xs:"80%",lg:"50%"},mx:"auto"}}>
