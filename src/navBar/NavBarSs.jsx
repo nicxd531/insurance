@@ -14,17 +14,17 @@ const NavBarSs = () => {
             <Hamburger toggled={isOpen} toggle={setOpen}/>
             <div className={`menu z-1 ${isOpen?"menuOpen" : "menuClose"}`}>
                 <Box sx={{mt:0,flexDirection:"column",width:"100%"}} className="d-flex justify-content-center align-items-center">
-                    <NavLink to="/" className="strokes" ><IconButton sx={{mx:0,width:"100%"}}>Home</IconButton></NavLink >
+                    <NavLink to="/" className="strokes" ><IconButton sx={{mx:0,width:"100%",fontSize:"14px"}}>Home</IconButton></NavLink >
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <NavLink  to="/services" className="strokes"><IconButton sx={{mx:0}}>Services</IconButton></NavLink >
+                    <NavLink  to="/services" className="strokes"><IconButton sx={{mx:0,fontSize:"14px"}}>Services</IconButton></NavLink >
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <NavLink  to="/aboutUs" className="strokes"><IconButton sx={{mx:0}}>About us</IconButton></NavLink >
+                    <NavLink  to="/aboutUs" className="strokes"><IconButton sx={{mx:0,fontSize:"14px"}}>About us</IconButton></NavLink >
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <NavLink  to="/blog" className="strokes"><IconButton sx={{mx:0}}>Blog</IconButton></NavLink >
+                    <NavLink  to="/blog" className="strokes"><IconButton sx={{mx:0,fontSize:"14px"}}>Blog</IconButton></NavLink >
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <NavLink  to="/contactUs" className="strokes"><IconButton sx={{mx:0}}>Contact us</IconButton></NavLink >
+                    <NavLink  to="/contactUs" className="strokes"><IconButton sx={{mx:0,fontSize:"14px"}}>Contact us</IconButton></NavLink >
                     <Divider variant="inset" sx={{width:"100%",margin:"auto"}}/>
-                    <NavLink  to="/Partners" className="strokes"><IconButton sx={{mx:0}}>Our Partners</IconButton></NavLink >
+                    <NavLink  to="/Partners" className="strokes"><IconButton sx={{mx:0,fontSize:"14px"}}>Our Partners</IconButton></NavLink >
                 </Box>
             </div>
         </div>

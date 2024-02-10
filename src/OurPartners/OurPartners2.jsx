@@ -42,7 +42,7 @@ function OurPartners2() {
                         <Box  data-aos="zoom-in-up" key={index} sx={{width:"45%",textAlign:"center",mt:6}} >
                             <img src={data.image}/>
                             <Typography color="primary.main" sx={{fontWeight:"bold",mt:2,fontSize:{xs:"12px",lg:"18px"}}}>{data.heading}</Typography>
-                            <Typography className='text-muted' sx={{mt:2,fontSize:{xs:"10px",lg:"14px"}}}>{data.description}</Typography>
+                            <Typography className='text-muted' sx={{mt:2,fontSize:{xs:"14px",lg:"14px"}}}>{data.description}</Typography>
                         </Box>
                         )
                     })

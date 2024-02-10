@@ -273,6 +273,7 @@
 .Home .HomeSection5 > div:first-child > div:nth-child(4) .toggleBtn2 {
   color: #255B7D;
   transition: 0.5s all ease-out;
+  z-index: 2;
 }
 .Home .HomeSection5 > div:first-child > div:nth-child(4) .toggleBtnMove1 {
   margin-left: 2px;

@@ -36,7 +36,7 @@ function OurPartnersSection4() {
         }
     }
   return (
-    <Box sx={{px:{xs:2,lg:"150px"},mt:{xs:30,lg:6},mb:14}}>
+    <Box sx={{px:{xs:2,lg:"150px"},mt:{xs:40,lg:6},mb:14}}>
         <Box sx={{textAlign:"center"}}>
             <Typography color="primary.main" sx={{fontWeight:"bold",fontSize:"24px"}}>Here is what clients have to say</Typography>
             <Typography className="text-muted"  sx={{width:{xs:"100%",lg:"50%"},mx:"auto",fontSize:"18px",mt:2}}>Reviews from individuals who have made use of our services would convince you</Typography>
@@ -50,7 +50,7 @@ function OurPartnersSection4() {
                 )
                }) }
             </Box>
-            <Box sx={{mr:16}} className="d-flex justify-content-end align-items-center">
+            <Box sx={{mr:16,mt:{xs:2,lg:0}}} className="d-flex justify-content-end align-items-center">
                 <ArrowBackIcon sx={{cursor:"pointer",fontSize:"34px",color: currentImageArrow == false? "#3CBF54":"#868686"}} onClick={handleClickBackward}/>
                 <ArrowForwardIcon   sx={{cursor:"pointer",fontSize:"34px",color: currentImageArrow == true ?"#3CBF54":"#868686"}} onClick={handleClickForward}/>
                 

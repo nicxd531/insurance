@@ -14,18 +14,18 @@ function OurPartners3() {
                 <img style={{width:"100%"}} src="/images/op3i1.png"/>
             </Box>
             <Box sx={{width:{xs:"100%",lg:"45%"},ml:{lg:10}}}>
-                <Typography color="primary.main" sx={{fontSize:"20px",fontWeight:"bold"}}>Insurance management for businesses</Typography>
+                <Typography color="primary.main" sx={{fontSize:"20px",fontWeight:"bold",mt:2}}>Insurance management for businesses</Typography>
                 <Typography className="text-muted" sx={{fontSize:"16px",mt:2}}>The process of insurance management begins with an evaluation of the business’ needs and risk profile. It is essential for business owners to assess the risks that their operations involve, such as fire, theft, injury, or liability. It is essential for business owners to review it.</Typography>
                 <Button sx={{backgroundColor:"#3CBF54",color:"white",mt:2,width:"195px",height:"50px",fontSizez:"16px"}}>Get in touch</Button>
             </Box>
         </Box>
         <Box data-aos="zoom-in-up" className="d-flex align-items-center" sx={{mt:6,justifyContent:"space-between",flexDirection:{xs:"column",lg:"row"}}}>
             <Box sx={{width:{xs:"100%",lg:"45%"},mr:{lg:10}}}>
-                <Typography color="primary.main" sx={{fontSize:"20px",fontWeight:"bold"}}>A solution for insurers and brokers</Typography>
+                <Typography color="primary.main" sx={{fontSize:"20px",fontWeight:"bold",mt:2}}>A solution for insurers and brokers</Typography>
                 <Typography className="text-muted" sx={{fontSize:"16px",mt:2}}>Insurance has long been seen as an integral part of the financial services industry. It provides a way for individuals, businesses and other organizations to protect themselves from financial losses due to various risks such as accidents, natural disasters, theft, and legal liability. </Typography>
                 <Button sx={{backgroundColor:"#3CBF54",color:"white",mt:2,width:"195px",height:"50px",fontSizez:"16px"}}>View full details</Button>
             </Box>
-            <Box sx={{width:{xs:"100%",lg:"45%"}}}>
+            <Box sx={{width:{xs:"100%",lg:"45%"},mt:{xs:6,lg:0}}}>
                 <img style={{width:"100%"}} src="/images/op3i2.png"/>
             </Box>
         </Box>
@@ -33,8 +33,8 @@ function OurPartners3() {
             <Box sx={{width:{xs:"100%",lg:"45%"}}}>
                 <img style={{width:"100%"}} src="/images/op3i3.png"/>
             </Box>
-            <Box sx={{width:{xs:"100%",lg:"45%"},ml:{lg:10}}}>
-                <Typography color="primary.main" sx={{fontSize:"20px",fontWeight:"bold"}}>A solution for insurers and brokers</Typography>
+            <Box sx={{width:{xs:"100%",lg:"45%"},ml:{lg:10},mt:{xs:4,lg:0}}}>
+                <Typography color="primary.main" sx={{fontSize:"20px",fontWeight:"bold",mt:2}}>A solution for insurers and brokers</Typography>
                 <Typography className="text-muted" sx={{fontSize:"16px",mt:2}}>Insurance has long been seen as an integral part of the financial services industry. It provides a way for individuals, businesses and other organizations to protect themselves from financial losses due to various risks such as accidents, natural disasters, theft, and legal liability. </Typography>
                 <Button sx={{backgroundColor:"#3CBF54",color:"white",mt:2,width:"195px",height:"50px",fontSizez:"16px"}}>View full details</Button>
             </Box>

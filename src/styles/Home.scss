@@ -298,6 +298,7 @@
                 .toggleBtn2{
                     color: $primary-colour-blue;
                     transition: 0.5s all ease-out;
+                    z-index: 2;
                 }
                 .toggleBtnMove1{
                     margin-left: 2px;
